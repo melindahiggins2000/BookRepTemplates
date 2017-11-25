@@ -4,4 +4,4 @@ Updated on 11/25/2017
 
 _development of book based on scripts and notes and other materials for reproducible templates course_
 
-
+Link to book in docs [https://melindahiggins2000.github.io/BookRepTemplates/](https://melindahiggins2000.github.io/BookRepTemplates/)
