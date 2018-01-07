@@ -1,0 +1,5 @@
+# another appendix section
+
+We have finished a nice book \index{Nice Book}.
+
+some random \index{random} text

@@ -124,11 +124,12 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-01-06}
+  \date{2018-01-07}
 
 \usepackage{booktabs}
 \usepackage{makeidx}
 \makeindex
+\usepackage[nottoc]{tocbibind}
 
 \usepackage{amsthm}
 \newtheorem{theorem}{Theorem}[chapter]
@@ -151,7 +152,36 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\chapter{Prerequisites}\label{prerequisites}
+\listoftables
+\listoffigures
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+aaaaaaaaaaaa
+
+\section*{Why read this book}\label{why-read-this-book}
+\addcontentsline{toc}{section}{Why read this book}
+
+aaaaaaaaaaaaa
+
+\section*{Structure of the book}\label{structure-of-the-book}
+\addcontentsline{toc}{section}{Structure of the book}
+
+aaaaaaaaaaaaaaaa
+
+\section*{Software information and
+conventions}\label{software-information-and-conventions}
+\addcontentsline{toc}{section}{Software information and conventions}
+
+aaaaaaaaaaaaaaaa
+
+\section*{Acknowledgments}\label{acknowledgments}
+\addcontentsline{toc}{section}{Acknowledgments}
+
+aaaaaaaaaaaaaaa
+
+\section*{Prerequisites}\label{prerequisites}
+\addcontentsline{toc}{section}{Prerequisites}
 
 This is a \emph{sample} book written in \textbf{Markdown}. You can use
 anything that Pandoc's Markdown supports, e.g., a math equation
@@ -171,6 +201,27 @@ Remember each Rmd file contains one and only one chapter, and a chapter
 is defined by the first-level heading \texttt{\#}.
 
 To compile this example to PDF, you need to install XeLaTeX.
+
+\chapter*{About the Author}\label{about-the-author}
+\addcontentsline{toc}{chapter}{About the Author}
+
+Melinda Higgins has dual degrees in Chemometrics (PhD) and Statistics
+(MS) with 25 years experience in research, teaching, consulting,
+directing and managing projects. Her expertise includes
+programming/scripting languages (R, S, Pascal, Perl, Prolog) and
+statistical, mathematical, imaging, and geo-spatial processing software
+packages (R, SAS, SPSS, MATLAB, SYSTAT, ENVI, ESRI ArcView, IMAGINE).
+While at Georgia Tech Research Institute (1994-2011), she coordinated
+large team projects with rigorous timelines, milestone tracking and
+version control in the areas of remote sensing, geospatial information
+systems, sensor fusion and target recognition. In her current work at
+Emory (2007 --), she has 10+ yr expertise mentoring students and faculty
+in nursing and public health science research and scholarship. Her
+health research experience includes pattern recognition, phenotype
+characterizations and longitudinal modeling in heart failure, diabetes,
+cognitive impairment, and HIV/AIDS chronic disease populations.
+
+\part{Part One}\label{part-part-one}
 
 \chapter{Introduction}\label{intro}
 
@@ -256,6 +307,8 @@ sample book, which was built on top of R Markdown \index{R Markdown} and
 
 Here is a review of existing methods.
 
+\part{Part Two}\label{part-part-two}
+
 \chapter{Methods}\label{methods}
 
 We describe our methods \index{Some Methods} in this chapter.
@@ -271,6 +324,23 @@ Some \emph{significant} applications are demonstrated in this chapter.
 \section{Example two}\label{example-two}
 
 \chapter{Final Words}\label{final-words}
+
+We have finished a nice book \index{Nice Book}.
+
+some random \index{random} text
+
+\part{Appendix}\label{part-appendix}
+
+\appendix
+
+
+\chapter{First appendix section}\label{first-appendix-section}
+
+We have finished a nice book \index{Nice Book}.
+
+some random \index{random} text
+
+\chapter{another appendix section}\label{another-appendix-section}
 
 We have finished a nice book \index{Nice Book}.
 

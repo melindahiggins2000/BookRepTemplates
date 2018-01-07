@@ -1,0 +1,9 @@
+# (PART) Appendix {-}
+
+# (APPENDIX) Appendix {-}
+
+# First appendix section
+
+We have finished a nice book \index{Nice Book}.
+
+some random \index{random} text

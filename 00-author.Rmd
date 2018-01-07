@@ -1,0 +1,5 @@
+# About the Author {-}
+
+Melinda Higgins has dual degrees in Chemometrics (PhD) and Statistics (MS) with 25 years experience in research, teaching, consulting, directing and managing projects. Her expertise includes programming/scripting languages (R, S, Pascal, Perl, Prolog) and statistical, mathematical, imaging, and geo-spatial processing software packages (R, SAS, SPSS, MATLAB, SYSTAT, ENVI, ESRI ArcView, IMAGINE). While at Georgia Tech Research Institute (1994-2011), she coordinated large team projects with rigorous timelines, milestone tracking and version control in the areas of remote sensing, geospatial information systems, sensor fusion and target recognition. In her current work at Emory (2007 –), she has 10+ yr expertise mentoring students and faculty in nursing and public health science research and scholarship. Her health research experience includes pattern recognition, phenotype characterizations and longitudinal modeling in heart failure, diabetes, cognitive impairment, and HIV/AIDS chronic disease populations. 
+
+
