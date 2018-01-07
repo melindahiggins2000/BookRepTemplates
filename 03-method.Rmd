@@ -1,3 +1,5 @@
 # Methods
 
-We describe our methods in this chapter.
+We describe our methods \index{Some Methods} in this chapter.
+
+add more random text \index{text}.
