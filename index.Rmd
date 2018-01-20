@@ -4,13 +4,38 @@ author: "Melinda K. Higgins"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [manual.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 lot: true
 lof: true
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---
+
+```{r pkgs1, include=FALSE}
+# set up knitr chunk options
+
+# knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(error = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+
+# set up packages needed
+library(bookdown)
+library(rmarkdown)
+library(knitr)
+library(dplyr)
+library(ggplot2)
+library(printr)
+library(fivethirtyeight)
+
+# set up bibliography for citations
+#cleanbib()
+#options("citation_format" = "pandoc")
+
+```
+
 
 # Preface {-}
 
@@ -48,9 +73,38 @@ Remember each Rmd file contains one and only one chapter, and a chapter is defin
 
 To compile this example to PDF, you need to install XeLaTeX.
 
+## Colophon {-}
+
+### R Packages Used in This Book {-}
+
+This book will use the `R` programming language [@R-base] with the following `R` packages:
+
+1. `bookdown` [@R-bookdown]
+2. `rmarkdown` [@R-rmarkdown]
+3. `knitr` [@R-knitr]
+4. `dplyr` [@R-dplyr]
+5. `ggplot2` [@R-ggplot2]
+6. `printr` [@R-printr]
+7. `fivethirtyeight` [@R-fivethirtyeight]
+
 ```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(.packages(), 'bookdown', 
-                   'knitr', 'rmarkdown'), 
+# create a bib database for R packages
+knitr::write_bib(c(.packages(), 
+                   'bookdown', 'rmarkdown',
+                   'knitr', 'dplyr',
+                   'ggplot2', 'printr',
+                   'fivethirtyeight'), 
                  'packages.bib')
 ```
+
+Other external refs, book [@xie2015], and the FAD ref [@Miller_Epstein_Bishop_Keitner_1985].
+
+### R Session Info as of `r Sys.time()` {-}
+
+This book was compiled using the `R` packages `bookdown`, `rmarkdown`, and `knitr` running under the following `sessionInfo()`:
+
+```{r session}
+#Sys.time()
+sessionInfo()
+```
+
