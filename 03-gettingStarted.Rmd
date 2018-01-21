@@ -1,0 +1,102 @@
+# Getting Started {#getstarted}
+
+This chapter will cover the software tools needed - installing R, RStudio, GIT and Github to get started. And will include installing the various packages needed for the exercises in this book.
+
+## R
+
+So what is R? R is a language and environment for statistical computing and graphics. R is based on the S language and environment which was developed at Bell Laboratories (formerly AT&T, now Lucent Technologies) by John Chambers and colleagues. 
+
+R is Free - both in terms of no cost but also as FREELY distributed and shared under the GNU general public licensing.
+
+To learn more about R, you should visit the R-project website. This site provides good information about what R is, who the key contributors are, and information about the development of the R language. Links are provided for the manuals, frequently asked questions, and other resources like books about R and “The R Journal”. At the top of the page is a link to CRAN or C-RAN where you can download the R software.
+
+Go ahead to the CRAN website to download R. The link from the R project website, takes you to the list of “mirrors” or servers around the world that host the code and files and installers for installing R. You should pick the mirror closest to your geographic location. For example, at the bottom is the list of mirror sites for the United States. The one hosted by Duke University is closest to my location.
+
+You can also access this download page by directly going to [https://cran.r-project.org/](https://cran.r-project.org/) At the top, there are links for the different operating systems for Windows, Mac or Linux. Choose the one for your operating system. For  Windows, you'll want to click on the link for the “base” installer. This will take you to a page with a link to the executable (EXE) file that you'll need to download and run to install R on a Windows computer. When you click on the link for the Mac operating system, you are provided the link to the package (PKG) file needed to install R on your Mac.
+
+Go ahead and take a few minutes to download the installer needed for your operating system. Run the installer, follow the instructions, and accept the defaults to install R on your computer.
+
+Once R is installed, for example, on a windows computer, you will see R listed in your `/Start/Programs` list and may also have the R program icons shown on your desktop.
+
+It is worth noting that this is the minimum software you need to use R. For example, we can run the R program and when it opens you get a simple command line interface. You can use this to submit and execute R commands. For example: you can do simple math like typing in `2+2`, or finding the mean of an array of numbers like `mean(c(1,2,3,4,5))`. Try this out on your computer to test and make sure R is up and running on your system before installing RStudio.
+
+## RStudio
+
+Programming in R using the basic interface is not the best way. Let’s also go ahead and download and install the RStudio software. RStudio is a fully integrated development environment (IDE) and is the key interface we’ll use for the rest of the course. Not only does RStudio link directly to R and provide a much better programming interface, RStudio allows you to create great rmarkdown documents in multiple formats and then links everything to your Github repository with version control using Git. We’ll cover Github and Git in the next lesson.
+
+Go to [https://www.rstudio.com/](https://www.rstudio.com/) I encourage you to explore the many other products and services available from the RStudio organization. Check out their resources, which include free webinars, videos, and online learning.
+
+But let’s go ahead and download and install RStudio. Go to products and click on RStudio desktop. We will be using the FREE Open Source edition. Click on Download RStudio Desktop. Click the download button for the FREE version – this scrolls down to a list of installers. You need to read the file names to find the one right for your operating system. The first link is for the Windows installer, next is Mac followed by various flavors of Linux. You'll want the “Installers” not the “TarBalls or “Source Code” – these are primarily for developers.
+
+Go ahead and take a few minutes to download and install RStudio and get it up and running on your computer. 
+
+Once RStudio is up and running, you should see something that looks like this. We will explore this interface further in future lessons, but for now, let’s look at a few basic things. The main window on the left is the same basic “console/command line” window that you saw when you ran the basic R software. Like before, we can type commands and R code here. Like `2+2` and `mean(c(1,2,3,4,5))`. But you’ll notice there are more windows on the right side including information on your environment, history, files, plots, packages, help and viewer. To learn more about the RStudio interface, I've included several helpful links in a reading page after this video lecture. There are literally thousands of resources for learning more about both R and RStudio. Just pick your favorite search engine and search for tutorials on R and RStudio.
+
+## Github
+
+So what is Github? It’s a cloud repository, which hosts things like code, files and documents. It’s very similar to Dropbox, Google drive and Microsoft’s One Drive. 
+
+However, Github also includes version control and tracking using Git, which we'll get to shortly. Github has a web-based interface that includes support for desktop and mobile integration.
+
+Github provides access control and collaboration features such as bug tracking, feature requests, task management, and wikis.
+
+It also has native support and interpretation of markdown that's much easier to use and write than HTML. We’re going to learn more about markdown at the end of this module.
+
+So let’s set up your Github account. Go to [https://github.com](https://github.com).
+
+1. Choose a Good Username for Your Github Account
+    a. Pick something professional that represents you.
+    b. This will be your identity on Github and will be viewable by everyone.
+    c. NOTE: For this course, I assume that you are creating a PUBLIC Github account, which is FREE. You can create a PRIVATE Github account for a fee.
+
+2. You can register one Github account per email.
+
+3. Once you get logged into your Github Account, go to your account settings to customize your photo, bio, email, website URL, and more...
+
+4. When you first get started you won't have any repositories, but we will be creating repositories for each project.
+ 
+[BEGIN computer demo]
+
+[NOTES TO MYSELF - COMPUTER DEMO]
+
+* Show create account and log in screen
+* Once you are signed in, click on the icon on the top right     – click the pull down arrow to see selection options…such as accessing your profile and settings
+* Click on your settings – check your name and email. These are IMPORTANT – you need to know these to set up Git for version control and connectivity from your cloud account to your local computer
+* Add your bio summary, a URL, your photo, and any other information you want to share with everyone
+* View your profile page – this is your “home” on Github – your page will look different from mine. When you first create your account you won’t have any repositories. However, we will be creating new repositories for this course shortly.
+
+[END computer demo]
+
+## GIT
+
+Details in installing GIT
+
+Now that you have your Github account created and you are logged in, we’re going to install Git. GIT is a source code management system for software development. It was designed and developed in 2005 by the Linux developers.
+
+GIT is a distributed version control system with complete history & version-tracking capabilities. You may have heard of other version control systems, like Subversion, CVS, Perforce, and ClearCase.
+
+Unlike some of these, GIT is FREE (cost) and freely distributed under the terms of the GNU General Public License. 
+
+[BEGIN computer demo]
+
+[NOTES TO MYSELF - COMPUTER DEMO]
+
+* Download and install Git from [https://git-scm.com/](https://git-scm.com/) - click "Downloads" – at the lower left side of the web page
+* This opens another web page. This page has the links for downloading the installer files for Mac, Linux and Windows operating systems. Choose the download link for your operating system – NOTE: Clicking these links starts the file download.
+* Run the installer you just downloaded to install Git on your computer. Follow the instructions and accept the defaults.
+
+For example on my windows computer, I can go to the start programs and see that Git was installed and has 3 options for running GIT:
+
+* Git Bash – for this course we will use the Git Bash option
+* Git CMD
+* And Git GUI
+
+[computer demo continued]
+
+## R Packages
+
+Details on what R packages are, why you need them, and how to install them.
+
+## other
+
+Latex optional... word, open office, google docs, powerpoint, Internet browser software (IE, Edge, Firefox, Chrome, Safari, xxx)

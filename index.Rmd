@@ -1,5 +1,5 @@
 --- 
-title: "DRAFT Book Reproducible Templates"
+title: "Reproducible Templates _(Book in Development)_"
 author: "Melinda K. Higgins"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,7 +9,7 @@ biblio-style: apalike
 link-citations: yes
 lot: true
 lof: true
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This book is in development."
 ---
 
 ```{r pkgs1, include=FALSE}
@@ -31,33 +31,52 @@ library(printr)
 library(fivethirtyeight)
 
 # set up bibliography for citations
+# if using knitcitations
 #cleanbib()
 #options("citation_format" = "pandoc")
-
 ```
-
 
 # Preface {-}
 
-aaaaaaaaaaaa
+This should be s short 2-3 paragraph summary of the book, what it is about and such.
 
 ## Why read this book {-}
 
-aaaaaaaaaaaaa
+This should cover the purpose of the book and what the read will gain after reading the book. 
+
+Include who this book is for - having some previous experience with R is helpful, but a raw beginner could read these book - but it is assumed that the reader knows how to install software on their computer, connect to the Internet, find, create, copy and move files and folders on their computer. some previous experience working with document and presentation software like Word, google docs, open office, powerpoint, others xxxxxx...
+
+Include things like:
+
+* coursera course
+* filling in the gaps
+* seemingly disconnected applications brought together with rmarkdown glue
 
 ## Structure of the book {-}
 
-aaaaaaaaaaaaaaaa
+A verbal summary of what is in the book, each capte or section, organization and workflow - does it have to be sequential or can the reader jump around as needed - have to reads versus optional reads...
 
 ## Software information and conventions {-}
 
-aaaaaaaaaaaaaaaa
+Software assumptions, workflow and style conventions used in book. Maybe include stuff here on hints, warnings, and such.
 
 ## Acknowledgments {-}
 
-aaaaaaaaaaaaaaa
+People to thank:
+
+* emory, cfde, tnt team 
+* coursera
+* chester ismay - fivethirtyeight package and feedback
+* yihui xie - online help and guidance with bookdown
+* developers of R, Rstudio, rmarkdown, bookdown, knitr, ...
 
 ## Prerequisites {-}
+
+Placeholder for now - maybe come back and add details on getting started - what assumptions are made for getting setup to work thriugh the exercises in this book - to get the full experience...
+
+See more in the "Getting Started" Chapter \@ref(getstarted).
+
+***
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
