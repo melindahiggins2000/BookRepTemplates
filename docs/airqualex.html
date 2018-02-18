@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="gitexercise.html">
-<link rel="next" href="doccomponents.html">
+<link rel="prev" href="books.html">
+<link rel="next" href="first-appendix-section.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -165,18 +165,66 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="firstproject" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> First Project and Document</h1>
-<p>Pull from module 1 - lesson 7 - see slides and video…</p>
+<div id="airqualex" class="section level1">
+<h1><span class="header-section-number">Chapter 11</span> Exercise - Air Quality Report</h1>
+<div id="intro-script-2" class="section level2">
+<h2><span class="header-section-number">11.1</span> Intro Script</h2>
+<p>For your graded assignment, you will need to create an R Markdown file with each of the following 8 elements and then answer questions about the resulting document.</p>
+<p>Create an R Markdown file with the following 8 elements:</p>
+<ol style="list-style-type: decimal">
+<li><p>Title “The Air Quality Dataset”</p></li>
+<li><p>Author: “your name”</p></li>
+<li><p>A level 2 header “Summary of Air Quality Dataset” followed by</p></li>
+<li><p>this paragraph. In this paragraph provide the syntax to:</p>
+<ul>
+<li>show “airquality” in non-proportional font using backticks;</li>
+<li>create a non-numbered bulleted list for the 6 variables in the dataset</li>
+<li>put each variable name in bold using double asterisks</li>
+<li>put everything in parentheses in italics by placing a single underscore immediately before and after the opening and closing parentheses</li>
+<li>notice that the 1st sentence contains an inline footnote which should appear at the bottom of your document when compiled</li>
+</ul></li>
+</ol>
+<p>This exercise will be working with the built-in airquality dataset.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> This dataset contains 154 daily air quality measurements in New York from May 1, 1973 (a Tuesday) to September 30, 1973. The dataset contains 6 variables:</p>
+<p><code>Ozone</code>: Mean ozone in parts per billion (ppb) from 1300 to 1500 hours at Roosevelt Island;</p>
+<p><code>Solar.R</code>: Solar radiation in Langleys (lang) in the frequency band 4000–7700 Angstroms from 0800 to 1200 hours at Central Park;</p>
+<p><code>Wind</code>: Average wind speed in miles per hour (mph) at 0700 and 1000 hours at LaGuardia Airport;</p>
+<p><code>Temp</code>: Maximum daily temperature in degrees Fahrenheit (oF) at La Guardia Airport;</p>
+<p><code>Month</code>: numeric month (1-12)</p>
+<p><code>Day</code>: numeric Day of the month (1-31)</p>
+<ol start="5" style="list-style-type: decimal">
+<li><p>a second level 3 header “Table of Top of the Air Quality Dataset” followed by</p></li>
+<li><p>a table of the head of the airquality dataset – insert an R code chunk with the following code</p></li>
+</ol>
+<pre><code>knitr::kable(head(airquality))</code></pre>
+<ol start="7" style="list-style-type: decimal">
+<li><p>a third level 3 header “Plot of Ozone by Temperature – Air Quality Dataset” followed by</p></li>
+<li><p>a plot of the temperature and ozone from the built-in airquality dataset – insert an R code chunk with the following code</p></li>
+</ol>
+<pre><code>plot(airquality$Temp, airquality$Ozone, 
+        main=&quot;Airquality: Ozone by Temperature&quot;)</code></pre>
+<p>KNIT the document to HTML and KNIT to WORD</p>
 
+</div>
+</div>
+
+
+
+
+
+
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>Chambers, J. M., Cleveland, W. S., Kleiner, B. and Tukey, P. A. (1983) Graphical Methods for Data Analysis. Belmont, CA: Wadsworth.<a href="airqualex.html#fnref1">↩</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="gitexercise.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="doccomponents.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="books.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="first-appendix-section.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

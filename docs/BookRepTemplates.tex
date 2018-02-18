@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-01-21}
+  \date{2018-02-18}
 
 \usepackage{booktabs}
 \usepackage{makeidx}
@@ -146,6 +146,93 @@ Include things like:
   seemingly disconnected applications brought together with rmarkdown
   glue
 \end{itemize}
+
+\subsection*{Coursera Course}\label{coursera-course}
+\addcontentsline{toc}{subsection}{Coursera Course}
+
+This book is based on the Coursera Course ``Reproducible Templates for
+Analysis and Dissemination'',
+\url{https://www.coursera.org/learn/reproducible-templates-analysis}
+
+\textbf{Coursera Course Description:} \emph{``This course will assist
+you with recreating work that a previous coworker completed, revisiting
+a project you abandoned some time ago, or simply reproducing a document
+with a consistent format and workflow. Incomplete information about how
+the work was done, where the files are, and which is the most recent
+version can give rise to many complications. This course focuses on the
+proper documentation creation process, allowing you and your colleagues
+to easily reproduce the components of your workflow. Throughout this
+course, you'll receive helpful demonstrations of RStudio and the R
+Markdown language and engage in active learning opportunities to help
+you build a professional online portfolio.''}
+
+The Course consists of 5 Modules:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Introduction to Reproducible Research and Dynamic Documentation
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This module provides an introduction to the concepts surrounding
+    reproducibility and the Open Science movement, RStudio and GitHub,
+    and foundational cases and authors in the field.
+  \item
+    11 videos, 6 readings, 1 practice quiz
+  \end{itemize}
+\item
+  R Markdown: Syntax, Document, and Presentation Formats
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This module explores the R Markdown syntax to format and customize
+    the layout of presentations or reports and will also look at
+    inserting and creating objects such as tables, images, or video
+    within documents.
+  \item
+    8 videos, 11 readings, 1 practice quiz
+  \end{itemize}
+\item
+  R Markdown Templates: Processing and Customizing
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This module goes further with R Markdown to help turn documents,
+    reports, and presentations into templates for easier automation,
+    reproducibility, and customization.
+  \item
+    9 videos, 6 readings, 1 practice quiz
+  \end{itemize}
+\item
+  Leveraging Custom Templates from Leading Scientific Journals
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This module delves into custom templates available for websites,
+    books, and scientific publishers, such as Elsevier and the IEEE,
+    with the chance to create your first R Package.
+  \item
+    6 videos, 3 readings, 1 practice quiz
+  \end{itemize}
+\item
+  Working in Teams and Disseminating Templates and Reports
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This module focuses on helpful tips for sharing and using the
+    templates you create, as well as methods for organizing content.
+    We'll also look at a few web-publishing services.
+  \item
+    6 videos, 2 readings, 1 practice quiz
+  \end{itemize}
+\end{enumerate}
 
 \section*{Structure of the book}\label{structure-of-the-book}
 \addcontentsline{toc}{section}{Structure of the book}
@@ -235,10 +322,10 @@ with the following \texttt{R} packages:
 Other external refs, book \citep{xie2015}, and the FAD ref
 \citep{Miller_Epstein_Bishop_Keitner_1985}.
 
-\subsection*{R Session Info as of 2018-01-21
-08:39:31}\label{r-session-info-as-of-2018-01-21-083931}
-\addcontentsline{toc}{subsection}{R Session Info as of 2018-01-21
-08:39:31}
+\subsection*{R Session Info as of 2018-02-18
+07:30:13}\label{r-session-info-as-of-2018-02-18-073013}
+\addcontentsline{toc}{subsection}{R Session Info as of 2018-02-18
+07:30:13}
 
 This book was compiled using the \texttt{R} packages \texttt{bookdown},
 \texttt{rmarkdown}, and \texttt{knitr} running under the following
@@ -271,7 +358,7 @@ This book was compiled using the \texttt{R} packages \texttt{bookdown},
 ##  [5] munsell_0.4.3    colorspace_1.3-2 R6_2.2.2         rlang_0.1.4     
 ##  [9] plyr_1.8.4       stringr_1.2.0    tools_3.4.3      grid_3.4.3      
 ## [13] gtable_0.2.0     htmltools_0.3.6  lazyeval_0.2.0   yaml_2.1.16     
-## [17] rprojroot_1.3-2  digest_0.6.12    assertthat_0.2.0 tibble_1.3.4    
+## [17] rprojroot_1.3-2  digest_0.6.14    assertthat_0.2.0 tibble_1.3.4    
 ## [21] bindrcpp_0.2     glue_1.1.1       evaluate_0.10.1  stringi_1.1.5   
 ## [25] compiler_3.4.3   scales_0.5.0     backports_1.1.1  pkgconfig_2.0.1
 \end{verbatim}
@@ -289,11 +376,12 @@ While at Georgia Tech Research Institute (1994-2011), she coordinated
 large team projects with rigorous timelines, milestone tracking and
 version control in the areas of remote sensing, geospatial information
 systems, sensor fusion and target recognition. In her current work at
-Emory (2007 --), she has 10+ yr expertise mentoring students and faculty
-in nursing and public health science research and scholarship. Her
-health research experience includes pattern recognition, phenotype
-characterizations and longitudinal modeling in heart failure, diabetes,
-cognitive impairment, and HIV/AIDS chronic disease populations.
+Emory (2007 --), she has over a decade of expertise mentoring students
+and faculty in nursing and public health science research and
+scholarship. Her health research experience includes pattern
+recognition, phenotype characterizations and longitudinal modeling in
+heart failure, diabetes, cognitive impairment, and HIV/AIDS chronic
+disease populations.
 
 \part{Part One}\label{part-part-one}
 
@@ -1403,9 +1491,1533 @@ help documentation \url{https://help.github.com/} for help.
 
 Let's go back to RStudio and create a New Project.
 
-\chapter{First Project}\label{firstproject}
+\chapter{First Project and Document}\label{firstproject}
 
 Pull from module 1 - lesson 7 - see slides and video\ldots{}
+
+\chapter{Document Components}\label{doccomponents}
+
+\section{Sections of a Document}\label{sections-of-a-document}
+
+In this lesson, you are going to learn a lot more about R markdown. I
+encourage you to read through the supplementary materials provided and
+spend some time reviewing the R markdown website by RStudio at
+\url{http://rmarkdown.rstudio.com/index.html}
+
+{[}DEMO here of the website and quick overview of what is available --
+especially point out the steps and information provided in ``Getting
+Started'' -- PLUS the Gallery, Formats and Articles{]}
+
+However, let's also do a quick Overview of the components contained in
+an R Markdown Document:
+
+\section{YAML}\label{yaml}
+
+At the top of an R markdown document you will typically have the
+``document metadata.'' This metadata is contained in a YAML header that
+has: o information about the document; o various parameters; and o
+formatting options; and o other options that can be customized
+
+\section{BODY}\label{body}
+
+After the YAML header, comes the BODY of Document. The rest of the
+document will consist of: o Plain Text -- this plain text will contain
+the content of your document along with  Rmarkdown syntax for this
+course which is based on markdown o Most likely you'll also have some
+programming code included -- these are called code chunks  For this
+course you will be learning the R language, but in RStudio using the R
+markdown package there are options for including other computer
+languages like Python, Rcpp (R's version of C plus plus), the SQL
+database language and STAN (used for Bayesian statistical analyses). o
+You may also have other embedded ``objects'' such as:  Figures; images;
+photos; pictures  Tables  Videos; animations  Equations  References;
+ Or footnotes
+
+\section{Document Metadata}\label{document-metadata}
+
+So, let's start at the beginning with the YAML document header which
+contains your document's ``metadata''. What is Document ``Metadata''?
+
+Every document (and file for that matter) you create has metadata.
+Metadata is often referred to as ``data about data'' -- in other words,
+metadata is information about your document or file -- not ``data''
+within your document.
+
+{[}DEMO on computer{]}
+
+Let's see an example. On a Windows machine, if you open the file
+explorer and right click on a file (like a Word DOC file) and view
+``properties'' and then click on ``details'' you get a lot of
+information about the file or document including: • The original author
+or user who created the file or document • Last date and time the file
+was saved and by who (which user) • The revision number • The program
+used to view/edit the file • The name of the company or manager for that
+file or software license (if available) • Depending on the file type
+sometimes there is a description of the content in the file • The file
+size (amount of hard drive space used to store the file) • And much more
+• Other file types (like computer programs or scripts) may have
+different information -- for example, images and pictures will usually
+have information on the image size (e.g.~width and height in pixels)
+
+When we create an \texttt{R\ markdown} document we will have direct
+control over some of this metadata through information contained in the
+header of the document. This header information is provided and
+structured using YAML. So, what is YAML? It is pronounced to rhyme with
+camel.
+
+YAML stands for ``yet another markup language'' or ``YAML ain't markup
+language'' depending on who you ask. You can learn a lot about YAML
+simply by searching the Internet using your favorite search engine. You
+can also visit the official YAML website at yaml.org but this website is
+aimed at programmers and is not very user friendly. However, the
+yaml.org website does offer some insight into how many programming
+languages and platforms YAML supports besides R markdown.
+
+Technically, it is possible to create an R markdown file without a YAML
+header, but for this course we will always have some information
+contained and defined within the YAML header. We will be using the YAML
+header to define the parameters (or options) used by the Rmarkdown R
+package to ``render'' the final document. We'll talk more about the
+render function in future lessons, but for now, just understand that the
+information contained in the YAML header is used as instructions and
+input parameters for creating the final document.
+
+{[}DEMO on computer{]}
+
+Let's create a Github repository for this next exercise. Log into your
+Github account and create a new repository. Name your repository
+``Module2\_rmd1'' for your first R markdown document exercise in Module
+2. Type in a description and add a README file and click create
+repository.
+
+Once you have your Github repository created -- click on ``Clone or
+Download'' and copy the URL to the clipboard.
+
+Open RStudio and Click on File/New Project. Choose Version Control using
+Git. Paste in the URL you just copied and MAKE SURE you are creating the
+repository in the folder you created for this course
+\texttt{“C:\textbackslash{}RepResearchCourse”} -- that way you'll have
+all of the content for this course organized in one central location on
+your local drive.
+
+Now that we've got a new RStudio project created, let's go ahead and
+create a new R markdown document. Click on File/New File/R Markdown. We
+will be creating a ``document'' -- type in a title for your document
+like ``Module 2 - R Markdown Document 1''. Type in your name as author
+-- it may already be entered. And keep the default output format as
+HTML. Click OK.
+
+Everything you just typed in -- your title, author name and the output
+format -- you will see again when we review the YAML header information
+next.
+
+When the document opens, you'll notice that the TAB is called
+``untitled'' and there is an icon next to it that looks like a document
+with a red circle over it. It is hard to see on my screen but the
+letters ``RMD'' are inside the red circle. Let's go ahead and save this
+file and name it module2\_rmd1. Click Save. The file format defaults to
+the RMD format ``module2\_rmd1.Rmd'' and the file name changes in the
+TAB at the top.
+
+Now, let's look at the document. At the very top there are 3 dashes - -
+- these indicate the BEGINning of the YAML header content. You should
+see information for the: • Title • Author • Date • Output
+
+After the output there are 3 more dashes - - - indicating the END of the
+YAML header.
+
+The words ``title'' ``author'' ``date'' and ``output'' are all YAML
+``key words'' or parameters or options used by the render function in
+the R markdown package which compiles and creates the final document.
+
+After each key word there is a colon : followed by your input for each
+parameter. For example, your title input is contained within beginning
+and ending double quotation marks ``Module 2 - R Markdown Document 1''.
+Similarly on the next line you have the key word author followed by a
+colon : and then in between beginning and ending double quotation marks
+you have your name. Likewise for the date. In a future lesson, I will
+show you how to use r code to automatically change the date to the
+current date and time if you wish.
+
+Currently, the last line in the YAML header has the key word output :
+html\_document. This was defined when we first created the New File/R
+Markdown document.
+
+We will be learning a lot more about this YAML key word for output since
+this is where we define the parameters for customizing the various
+output formats we want. For now, watch what happens if we select
+different KNIT options. Let's first KNIT to HTML. Your document should
+open in the VIEWER window to the right.
+
+If your document does not appear in the VIEWER window, check your KNIT
+options -- click the gear icon next to KNIT and see which options are
+selected. The preview in window opens a new separate window. Preview in
+Viewer Pan open in the VIEWER window at the bottom right.
+
+Now, let's KNIT to WORD to create a DOCX formatted file. As soon as you
+select this option, watch the RMD file, a second output option is
+entered for word\_document: default. This additional option is added to
+your YAML header automatically. This is one example of how changing the
+options in your YAML header directly affects the output produced from
+your R markdown document.
+
+You'll notice that the DOCX file also opens in a new window to preview
+the WORD Document.
+
+OPTIONALLY if you have LaTeX installed on your computer, you can also
+try KNIT to PDF and again this will open in a new window to preview the
+PDF document. And a 3rd line of text is added to the YAML header for
+pdf\_document: default.
+
+For now this completes the overview of the YAML header. But we will be
+adding and removing more YAML keywords as we work through this course.
+
+Go ahead and keep this R markdown file open for the next lesson.
+
+\chapter{Document Formatting - R Markdown Syntax}\label{rmdsyntax}
+
+\section{Script}\label{script}
+
+If you need to, go ahead and log in to your Github account, open
+RStudio, and open the RStudio project for ``Module2\_rmd1''. We're going
+to keep working with the R markdown file you just created
+``module2\_rmd1.Rmd''. Go ahead and open this R markdown file.
+
+{[}DEMO -- computer{]}
+
+\section{Body of text}\label{body-of-text}
+
+Previously we discussed the information contained at the very top of the
+document. This is the YAML header which contains the title, author, date
+and output format. For this lesson we're going to concentrate on the
+TEXT in the main BODY of your document. You're going to learn some
+syntax for how to format parts of your text in different ways.
+
+For now we'll ignore the part in between the 3 backticks
+\texttt{\{r\}\ xxxxxxxxxx} which may be highlighted in a light grey box.
+This is a chunk of R code that we'll be discussing later.
+
+Let's start with the line that begins with 2 hashtags \#\# followed by
+the text R Markdown. The hashtags are markdown SYNTAX used to indicate
+that the text that follows is a HEADER. The number of hashtags indicates
+what level the header should be. For example, 2 hashtags \#\# indicate
+that the text R Markdown should be formatted and treated as a level 2
+header.
+
+Let's look at an overview of R Markdown syntax. In RStudio, go to HELP/R
+Markdown Quick Reference or look at the Markdown Cheatsheets -- this
+opens a special HELP window at the lower right. Take a few moments to
+review the information and examples provided.
+
+You can also learn more at the R Markdown website for ``Markdown
+Basics'' \url{http://rmarkdown.rstudio.com/lesson-8.html} which links
+you to the more detailed information on the markdown syntax for use by
+Pandoc \url{http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html}
+
+You will remember I mentioned Pandoc in Module 1 as the ``universal
+document converter''. When we process or compile the R Markdown document
+using the R Markdown package in R, it uses Pandoc to process the
+document into the final desired formats. As such, it is important to
+understand how the formatting syntax works so that Pandoc understands
+it.
+
+Let's try out some of the basic markdown syntax to get you started
+formatting your text the way you want it.
+
+Above the \#\# R Markdown, let's add a level 1 header and then below
+that we'll also add a level 3 header.
+
+\texttt{\#\ This\ is\ a\ level\ 1\ header}
+
+\texttt{\#\#\#\ This\ is\ a\ level\ 3\ header}
+
+Click KNIT to HTML and see the result in the viewer.
+
+If you scroll down a little further, you'll notice that there is a
+web-address URL shown between \textless{}\textgreater{} the less than,
+greater than symbols. This is one way to add in a web link. The use of
+the \textless{}\textgreater{} symbols is a short hand or abbreviated
+HTML approach, which is allowed. However, the markdown syntax for adding
+in a weblink is to put the word or words you want to highlight between
+square brackets {[}{]} followed immediately by the web-address URL in
+between parentheses (). Let's add this line to your document.
+
+Here is a link to \href{http://google.com}{GOOGLE}.
+
+Click KNIT to HTML and see the results. From the viewer window test out
+the weblink -- it should open a browser and take you to Google.
+
+In the next paragraph the word KNIT has 2 asterisks ** both at the
+beginning and at the end of the word. These are used for emphasis. Two
+asterisks are used for strong emphasis, which results in the work being
+formatted in BOLD. If we use only 1 asterisk, the word is shown in
+italics. You can also use one or two underscores \_ to emphasize a word.
+
+Let's add two more lines of text to test this out.
+
+Here is a word in \textbf{bold} and another word in \textbf{bold}.
+
+Here is a word in \emph{italics} and another word in \emph{italics}.
+
+Notice that the asterisk or underscore must come immediately before and
+after the word with no spaces in between for the syntax to work.
+
+Go ahead and click KNIT to HTML to see the results.
+
+Another kind of emphasis can also be done using backtick
+\texttt{marks\ before\ and\ after\ a\ word\ or\ series\ of\ words.\ This\ is\ usually\ done\ to\ highlight\ text\ that\ refers\ to\ computer\ code\ or\ a\ command.\ The\ text\ placed\ between\ two\ backtick\ marks}
+is usually formatted in a non-proportional font and is sometimes
+highlighted in a different color, like light grey.
+
+Let's add this line of text and put the name of the R markdown package
+in between 2 backtick marks.
+
+When we compile our document we are using the \texttt{rmarkdown} R
+package.
+
+You can extend this concept by highlighting a whole block of text to be
+shown in non-proportional font between 3 backticks on separate lines at
+the beginning and end of the text block you want to highlight. For
+example, if we wanted to show an example of 2 lines of R code, we could
+type in the following.
+
+Here are some example R commands:
+
+\begin{verbatim}
+2+2
+mean(c(1,2,3,4,5))
+\end{verbatim}
+
+Click KNIT to HTML and see the result
+
+NOTE: Putting text between 3 backticks only changes the formatting of
+that text. This looks very similar to an R code chunk but doesn't have
+the \{r\} after the 1st 3 backticks. We'll cover R code chunks later.
+
+Let's also make a bulleted list. We can make non-numbered bullets using
+asterisks and dashes and the plus symbol. Try the following list. To
+make a line indented, you must add 4 spaces. To indent twice, add 8
+spaces and so on. This is the 4-space rule.
+
+Here is an example of a non-numbered list:
+
+\begin{itemize}
+\tightlist
+\item
+  Breakfast
+
+  \begin{itemize}
+  \tightlist
+  \item
+    food
+
+    \begin{itemize}
+    \tightlist
+    \item
+      eggs
+    \item
+      toast
+    \item
+      bacon
+    \end{itemize}
+  \item
+    drink
+
+    \begin{itemize}
+    \tightlist
+    \item
+      apple juice
+    \end{itemize}
+  \end{itemize}
+\item
+  Lunch
+
+  \begin{itemize}
+  \tightlist
+  \item
+    taco
+  \end{itemize}
+\item
+  Dinner
+
+  \begin{itemize}
+  \tightlist
+  \item
+    baked chicken
+  \item
+    broccoli
+  \item
+    rice
+  \end{itemize}
+\end{itemize}
+
+We can make this same list numbered, but simply using numbers or
+letters.
+
+Here is an example of a numbered list:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Breakfast
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    food
+
+    \begin{enumerate}
+    \def\labelenumiii{\roman{enumiii}.}
+    \tightlist
+    \item
+      eggs
+    \item
+      toast
+    \item
+      bacon
+    \end{enumerate}
+  \item
+    drink
+
+    \begin{enumerate}
+    \def\labelenumiii{\roman{enumiii}.}
+    \tightlist
+    \item
+      apple juice
+    \end{enumerate}
+  \end{enumerate}
+\item
+  Lunch
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    taco
+  \end{enumerate}
+\item
+  Dinner
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    baked chicken
+  \item
+    broccoli
+  \item
+    rice
+  \end{enumerate}
+\end{enumerate}
+
+Again, KNIT to HTML and view the results
+
+You can also format quotes within R markdown using blockquotes which are
+highlighted by beginning each line in the quote with a \textgreater{}
+greater than symbol.
+
+Here are some examples to try.
+
+You can also do blockquotes:
+
+\begin{quote}
+This is a block quote. This paragraph has two lines.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  This is a list inside a block quote.
+\item
+  Second item.
+\end{enumerate}
+\end{quote}
+
+You can also nest blockquotes - you need a space in between the 2
+greater than symbols \textgreater{}'s.
+
+\begin{quote}
+This is a block quote. This paragraph has two lines.
+
+\begin{quote}
+This text is nested
+\end{quote}
+\end{quote}
+
+To indent code within a blockquote, you need to add 5 spaces after the
+greater than symbol \textgreater{}.
+
+\begin{quote}
+\begin{verbatim}
+2+2
+mean(c(1,2,3,4,5))
+\end{verbatim}
+\end{quote}
+
+KNIT to HTML and see how these come out.
+
+Also try KNIT to WORD and (optionally) KNIT to PDF if you have LaTeX
+installed to see how each of these various text formatting syntaxes
+appear in the final document in each document format. You'll notice that
+each document format (HTML, DOC and PDF) render each type of text
+formatting slightly different -- for example, notice how the blockquotes
+look different in HTML and DOC and PDF formats.
+
+You can learn a lot more about Pandoc markdown at
+\url{http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html}
+
+Now that we've made a bunch of changes, let's remember to stage, commit
+and push our changes up to your Github account.
+
+Open Git Bash and change to the directory for your Github repository
+created for ``Module2\_rmd1'' -- so go to:
+
+\texttt{C:\textbackslash{}RepTemplates\textbackslash{}Module2\_rmd1}
+
+Once in that directory, type in the following 4 Git commands to check
+the status of your local files compared to your Github cloud repository;
+add or stage the modified files; commit your changes; and then push the
+changes to your Github cloud repository.
+
+\begin{verbatim}
+git status
+git add .
+git commit –m “changes to rmd file”
+git push
+\end{verbatim}
+
+\chapter{Document Elements}\label{docelements}
+
+\section{Script Intro}\label{script-intro}
+
+For this lesson we're going to continue working with the same R markdown
+document ``module2\_rmd1.Rmd''. So, If you need to, go ahead and log in
+to your Github account, open RStudio, and open the RStudio project for
+``Module2\_rmd1''.
+
+So far you've explored the YAML header and tried out several R markdown
+syntax markings to change the formatting of text in your document. Next
+we're going to see how to insert other objects and elements within your
+document. In this lesson you'll learn how to insert:
+
+\begin{itemize}
+\tightlist
+\item
+  Figures; images; photos; or pictures
+\item
+  Tables
+\item
+  Videos or animations
+\item
+  Equations
+\item
+  and footnotes
+\end{itemize}
+
+\section{Figures}\label{figures}
+
+Take a look at the bottom of your current R markdown file. The last
+section of this current document contains a chunk of R code that makes a
+plot of the pressure dataset which is built into the base R software.
+
+Let's take a quick look at this built-in dataset. Go to the Console
+windows (bottom left) and type in
+
+\texttt{data1\ \textless{}-\ pressure}
+
+which creates an object called ``data1'' that is assigned a copy of the
+built-in pressure dataset. Then click on the Environment TAB in the
+upper right window -- click on the little table icon on the right --
+this opens the dataset in a viewer window at the top left. As you can
+see there are 2 columns of data and 19 rows for 19 data points of
+temperature and pressure. You can get more detailed information on this
+built-in dataset by looking it up in the HELP window. This brings up a
+help page on the pressure dataset which says that the pressure datasets
+is ``Data on the relation between temperature in degrees Celsius and
+vapor pressure of mercury in millimeters (of mercury).''
+
+So, in the R chunk shown here, there is only 1 line of code between
+backticks \texttt{\{r\}\ ending\ with\ 3\ more\ backticks}
+
+This line of code makes a scatterplot of the pressure (along the Y
+vertical axis) against temperature (along the X horizontal axis).
+
+\texttt{plot(pressure)}
+
+By running this R code chunk, a scatterplot is created and then inserted
+in the document where this code was specified.
+
+By the way, we can control the size of the figure using code ``chunk
+options''. You can learn more about code chunk options at Yihui Xie's
+website for the knitr package at \url{https://yihui.name/knitr/options/}
+
+Let's change the figure width and height using the fig.width and
+fig.height chunk options. These options come after the r in the \{r\}
+curly brackets. The current R code chunk has the following
+
+\texttt{\{r\ pressure,\ echo=FALSE\}}
+
+Let's explore each piece.
+
+The curly brackets indicate that this is a code chunk and the r
+indicates that the code will be R code.
+
+The word pressure is a label of the code chunk. This is helpful for
+debugging later. When you get an error the R Markdown log will show in
+which code chunk the error occurred. Giving them descriptive names will
+help you keep track.
+
+Let's look at the R Markdown TAB at the bottom left and review the log
+of when we last rendered or compiled the document -- when we last ran
+KNIT.
+
+After the chunk label and a comma, there is already 1 chunk option
+saying echo=FALSE. This tells R markdown to hide this code chunk and not
+``echo'' it or show it in the final document. So, if you look back at
+the documents you've made so far -- all you see is the plot of the
+pressure dataset -- you do not see the R code.
+
+At the very end of the document, let's add another code chunk and alter
+this next figure slightly. Click the button in the editor window with a
+little green C with a + plus, click the down arrow for insert an R code
+chunk. When you click this, it automatically enters the 3 backticks with
+the r in curly brackets
+\texttt{\{r\}\ followed\ by\ a\ blank\ line\ and\ then\ 3\ more\ backticks}
+ending the code chunk.
+
+Go to the blank line and type in
+
+\texttt{plot(pressure)}
+
+Now go back to the 1st line, let's add the following options. We'll add
+a new label ``pressure2'' since each code chunk has to have a unique
+chunk name. We'll also add fig.width=5 and fig.height=5 which does 2
+things -- it will make the horizontal and vertical dimensions of the
+figure to be the same and should render a figure approximately 5 inches
+by 5 inches -- see the chunk options described on Yihui Xie's website.
+
+\texttt{\{r\ pressure2,\ fig.width=5,\ fig.height=5\}}
+
+Save the RMD file and KNIT to HTML as see the differences between the 2
+plots. Not only will the plot sizes be different, in the 2nd one we left
+out the echo=FALSE so the R code was shown right before the 2nd plot. If
+you want to hide this code, go back and add echo=FALSE to the chunk
+options.
+
+\texttt{\{r\ pressure2,\ fig.width=5,\ fig.height=5,\ echo=FALSE\}}
+
+In RStudio 1.1.x, you'll also notice that in the editor window, within
+the code chunk at the far right there are a couple of little icons.
+Click on the one that looks like a gear and another window pops up that
+shows various code chunk options available including
+
+\begin{itemize}
+\tightlist
+\item
+  The name of the code chunk
+\item
+  What kind of output you want to show (with or without the code --
+  setting echo-TRUE or FALSE)
+\item
+  You can also turn on or off warnings and messages
+\item
+  At the bottom you can also set the figure width and height -- try
+  changing this to 4 inches and watch the changes in your R markdown
+  file.
+\end{itemize}
+
+There is also a green arrow \textgreater{} that you can click which will
+``run'' the R code as if you were running R from the command line or
+from a standalone R script. If you click this, the plot(pressure)
+command will be executed and the plot will be generated in the Plots
+window.
+
+\section{Images}\label{images}
+
+We do not have to use R code to add figures in your document. You can
+also bring in external images and pictures. Let's use the picture called
+sunstar.png -- the read ahead materials had instructions on how to
+download this picture. For now, let's put this picture in the same
+directory as your R markdown document. If you want to see this in your
+document, you can use the simple R markdown syntax
+\texttt{!{[}alt\ text{]}(filename)}
+
+Let's create a new header in our document
+
+\texttt{\#\#\ Insert\ Images}
+
+Here is an image inserted
+
+\texttt{!{[}sunstar{]}(sunstar.png)}
+
+You can also insert images off the web by linking directly to them via
+their web-address URL
+
+Here is the R logo
+
+\texttt{!{[}Rlogo{]}(https://www.r-project.org/logo/Rlogo.svg)}
+
+NOTE!! The image with the web-address URL will NOT compile correctly for
+the KNIT to WORD and KNIT to PDF since the image is not stored locally.
+If you want this image for a DOC or PDF formatted file, you will need to
+download the image and store it locally when you ``KNIT'' the final
+document. Then use the same syntax as you just did for sunstar.png. So,
+delete this section before you KNIT to WORD or KNIT to PDF.
+
+\section{Tables}\label{tables}
+
+Doing tables in with R markdown or rather using Pandoc's markdown can be
+done but is a tedious process for even simple tables. There are numerous
+examples provided at
+\url{http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html\#tables}
+
+Typically, it is easier to use R code to generate a table. The best
+function for making tables using R markdown is the kable function from
+the knitr package, see \url{https://yihui.name/knitr/} It may also help
+to install and learn more about the printr package also which improves
+the formatting of knitr output, see \url{https://yihui.name/printr/}
+
+Let's try a simple table of another built-in dataset, cars. Look at the
+help pages for cars. The cars dataset has 50 observations or rows and 2
+columns with the 1st column having data on the speed of the cars and the
+2nd column having data on the stopping distance. We can use the head
+function from base R to look at the top 6 rows of the cars dataset. The
+cars dataset is in an R object called a ``data.frame'' which the kable
+function handles like a table. So the following R chunk will make a
+table of the top 6 rows of the cars dataset.
+
+Let's create another new header in our document
+
+\texttt{\#\#\ Insert\ Tables}
+
+\begin{verbatim}
+
+\begin{tabular}{r|r}
+\hline
+speed & dist\\
+\hline
+4 & 2\\
+\hline
+4 & 10\\
+\hline
+7 & 4\\
+\hline
+7 & 22\\
+\hline
+8 & 16\\
+\hline
+9 & 10\\
+\hline
+\end{tabular}
+\end{verbatim}
+
+Let me explain the R code a little bit. Since the kable function comes
+from the knitr R package, it is good practice to list the package
+followed by 2 colons followed by the function so it is easy for you or
+anyone else reading your R code to know which package the function came
+from. There are literally tens of thousands of R packages and some have
+the same function name which do entirely different things. So, to avoid
+confusion it is always a good idea to list use the
+\texttt{package::function()} when using a function in R.
+
+So this code says to extract the ``head'' or top 6 rows of the cars
+dataset and use the kable function from the knitr package to print out a
+table in the final document.
+
+Go ahead and save your document and click KNIT to HTML to see the
+result. Feel free to also try KNIT to WORD and KNIT to PDF to see how
+the table appears in each of those formats.
+
+We can add other options to the kable function -- like adding a table
+caption. Let's add the option caption = ``Top 6 Rows of Cars Dataset''
+
+\begin{verbatim}
+knitr::kable(head(cars),
+             caption = "Top 6 Rows of Cars Dataset")
+\end{verbatim}
+
+You'll notice this added a caption or title at the top of the table in
+each of the formats (HTML, DOC and PDF).
+
+\section{Videos and animations}\label{videos-and-animations}
+
+Suppose you have a video you want to include in your document. This
+doesn't make sense for a printed final document, but these will work for
+a HTML document, you can view an embedded video. Let's work again with
+the sunstar graphic as an animated GIF and as a MP4 video. The read
+ahead materials had instructions on how to download both the animated
+GIF ``sunstar.gif'' and video ``sunstar.mp4'' into a subfolder in your
+project called ``sunstar''. Since these are in a directory called
+``sunstar'' in your project folder, you need to include the folder name
+when you list the filename. The syntax for embedding videos and animated
+GIFs is similar to how images are inserted.
+
+\begin{verbatim}
+## Insert an Animated GIF and Video
+
+![sunstar](sunstar/sunstar.gif)
+
+![sunstar](sunstar/sunstar.mp4)
+\end{verbatim}
+
+KNIT to HTML to see the results. You may need to open the saved html
+file in a separate browser window to see the embedded MP4 video. These
+videos will not work if you KNIT to WORD -- the document will compile
+but these sections will be blank. If you try running KNIT to PDF you
+will get an error. So, Videos and Animated GIFs only work in HTML format
+-- at least using this approach. New functions and methods are created
+daily, so there is probably a way to embed videos and animated GIFs in
+other formats if you look for it.
+
+In the final HTML document, you'll notice that the animated GIF plays
+over and over again. But the MP4 file is embedded with a video viewer
+that you can click play to see the video. This is only a simple
+introduction to videos. This is only scratching the surface. There is a
+R package called vebmedr which allows embedding of videos like YouTube
+in your HTML documents. Learn more at
+\url{http://ijlyttle.github.io/vembedr/}
+
+\section{Equations}\label{equations}
+
+For those of you not interested in typing math equations in your
+documents, you can skip this section. But if you are interested, know
+that you can embed equations using LaTeX syntax. For example, suppose we
+wanted to write out the equation for a simple linear regression model.
+We would embed the LaTeX formatting inside a block beginning and ending
+with 2 dollar signs \texttt{\$\$}
+
+\begin{verbatim}
+## Insert an equation
+
+$$ Y = \beta_0 + \beta_1x $$
+\end{verbatim}
+
+There are hundreds of websites with information, tutorials and help
+online for formatting equations using LaTeX. One example is
+\url{https://www.sharelatex.com/learn/Mathematical_expressions} if you
+want to learn more.
+
+\section{Footnotes}\label{footnotes}
+
+Finally, you might want to include a footnote in your document. The
+syntax for inserting a footnote is square brackets with an up arrow \^{}
+inserted. You can add footnotes in one of two ways.
+
+First -- you can simply add the notation where you want to add a
+footnote in the place in the text where you want the index number. And
+then at the END of the document you have to provide the content you want
+displayed with the footnote index.
+
+Second, you can use what is called an inline note. With an inline note
+you don't have to remember to add the footnote references at the end.
+Let's add the following to your document using both methods.
+
+\begin{verbatim}
+## Insert text with some footnotes
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+Here is an inline note.^[Inlines notes are easier to write, since you don't have to pick an identifier and move down to type the note.]
+
+[^1]: Here is the footnote.
+[^longnote]: Here's one with multiple blocks.
+\end{verbatim}
+
+Save your document and KNIT to HTML to view your document.
+
+Finally, let's make sure to back everything up and save your changes to
+your Github repository.
+
+Open Git Bash and change to the directory for your Github repository
+created for ``Module2\_rmd1'' -- so go to:
+
+\texttt{C:\textbackslash{}RepTemplates\textbackslash{}Module2\_rmd1}
+
+Once in that directory, type in the following 4 Git commands to check
+the status of your local files compared to your Github cloud repository;
+add or stage the modified files; commit your changes; and then push the
+changes to your Github cloud repository.
+
+\begin{verbatim}
+git status
+git add .
+git commit –m “inserting multiple elements to my RMD file”
+git push
+\end{verbatim}
+
+\chapter{Presentation Formats}\label{presentations}
+
+\section{Intro Script}\label{intro-script}
+
+For this lesson we're going to create some presentation formats. We'll
+make slides using either ioslides or slidy formats which make HTML based
+slides. If you have LaTeX installed you can also try making PDF slides
+in Beamer format. We'll also check out a newer slide template format
+called revealjs which can be accessed by installing a new R package.
+
+For now, let's keep using the same Github repository and the same
+RStudio project for ``Module2\_rmd1''. Go ahead and open this project in
+RStudio. We will create your new R markdown files for the different
+presentation formats in this repository. This repository should be saved
+on your local drive at
+
+\texttt{C:\textbackslash{}RepTemplates\textbackslash{}Module2\_rmd1}
+
+In RStudio, click File/Open Project and find the .Rproj file and open
+it.
+
+\section{Ioslides}\label{ioslides}
+
+Once you have your project open in RStudio, go ahead and create a new R
+Markdown file. But this time instead of creating a new document, select
+Presentation and the ioslides format. Type in a title like ``Module 2 --
+ioslides'' and click OK to create the new ioslides document.
+
+Take a quick look at the YAML header. The keywords title, author and
+date are all very similar to the YAML header for the HTML document. But
+notice that the output has changed to ioslides\_presentation. This is
+the line that tells R markdown that this document will be rendered as an
+ioslides HTML formatted presentation.
+
+You'll notice that this template for the HTML ioslides format has many
+similar elements and formatting as the basic R markdown HTML document we
+created in an earlier lesson.
+
+However, this time in ioslides the 2 hashtags \#\# for level 2 headers
+are the titles for each new slide. So, this basic ioslides template
+contains 4 slides. The 1st slide has some basic text with 2 paragraphs.
+The 2nd slide has a list with 3 bullets. The 3rd slide shows a simple
+summary of the cars dataset. The 4th slide shows a slide containing the
+plot of the pressure dataset.
+
+Go ahead and KNIT to HTML (ioslides) to see the final slides. Save the
+file to your local drive with a filename like ``module2\_ioslides.Rmd''
+
+You'll notice that there are actually 5 total slides. The 1st slide is
+your title slide and was generated using the information contained in
+the YAML header -- the other 4 slides created using the level 2 headers
+with the 2 hashtags \#\# come after this title slide. In your YAML
+header, try changing your title, author or date and KNIT to HTML
+(ioslides) the slides again to see how it changes your title slide.
+
+Open the saved HTML slides in a browser so you can view these outside of
+the RStudio viewer. A nice feature of the ioslides format is the ability
+to view the slides in a normal width/height ratio or in a wide format.
+While viewing the slides in a browser, type the letter w to switch from
+a normal to a wide view and back again.
+
+You can also view the slides in a full screen mode by typing the letter
+f to toggle from full screen to browser window view.
+
+\section{Slidy}\label{slidy}
+
+Let's also try making these slides in the Slidy HTML format as well. We
+can do this one of two ways. We can create a new R Markdown file and
+choose Presentations and the Slidy format. Or since we have the ioslides
+formatted file open already, we can simply KNIT to HTML (Slidy) and the
+output format will update automatically in the YAML header and your
+Slidy formatted slides will be created also. BEFORE we do this, go ahead
+and save the file as another filename to keep them separate from the
+ioslides format. Click File/SaveAs and save as ``Module2\_slidy.Rmd''.
+After you save your file as ``Module2\_slidy'', click KNIT to HTML
+(Slidy) and see these slides in the different format for Slidy HTML
+slides.
+
+Take a few moments now and choose one of these 2 R Markdown files --
+either for ioslides or Slidy -- and spend some time adding a few new
+slides inserting an image or video or an equation and view the results.
+You can use the text and R Markdown syntax we created earlier for the R
+markdown HTML document. Everything should work as expected in HTML
+except for the footnotes which are not supported in ioslides or Slidy
+but do work in the Beamer PDF format. You always have to check the
+documentation for each format as some options are not supported across
+formats -- like animations or videos not working in PDF or DOC formats.
+
+It is a good idea to read through the documentation for each R Markdown
+format at \url{http://rmarkdown.rstudio.com/formats.html}
+
+For now, let's try adding 3 slides to our ioslides (or Slidy)
+presentation here based on what we did earlier in the R Markdown HTML
+document. {[}NOTE TO SELF -- demonstrate this on the video in both
+ioslides and Slidy format for the viewers{]}
+
+\begin{verbatim}
+## A slide with an inserted image
+
+Here is an image inserted
+
+![sunstar](sunstar.png)
+
+## A slide with a table
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-4}Top 6 Rows of Cars Dataset}
+\centering
+\begin{tabular}[t]{r|r}
+\hline
+speed & dist\\
+\hline
+4 & 2\\
+\hline
+4 & 10\\
+\hline
+7 & 4\\
+\hline
+7 & 22\\
+\hline
+8 & 16\\
+\hline
+9 & 10\\
+\hline
+\end{tabular}
+\end{table}
+
+## A slide with an equation
+
+A simple linear regression equation
+
+$$ Y = \beta_0 + \beta_1x $$
+
+Notice that the slide with the sunstar image shows the word sunstar below the image. This is because we included AltText in the first set of text between the square brackets []. To remove this word, we simply need to remove the AltText. Change this slide to be
+
+## A slide with an inserted image
+
+Here is an image inserted
+
+![](sunstar.png)
+\end{verbatim}
+
+KNIT to HTML (ioslides) or (Slidy) whichever you prefer and view the
+changes. Save your file.
+
+Suppose we want to center the image on this slide. To the header (title)
+for this slide we can add the following layout option as follows.
+
+\texttt{\#\#\ A\ slide\ with\ an\ inserted\ image\ \{.flexbox\ .vcenter\}}
+
+You can learn more about these options for the ioslides format at
+\url{http://rmarkdown.rstudio.com/ioslides_presentation_format.html}
+
+You can also make 2 columns using an ioslide option \{.columns-2\} in
+the slide header. Try adding this slide to your ioslides R markdown
+file.
+
+\begin{verbatim}
+## A slide with 2 columns an image and a bulleted list {.columns-2}
+
+![](sunstar.png)
+
+- bullet 1
+- bullet 2
+- bullet 3
+\end{verbatim}
+
+KNIT to HTML (ioslides) to see the results. NOTE: This 2-column option
+shown here will NOT work for Slidy NOR for the Beamer PDF formats.
+
+\section{Beamer}\label{beamer}
+
+Optionally, if you have LaTeX installed, save your file as
+``Module2\_beamer'' and try KNIT to PDF (Beamer) to see the Beamer PDF
+slide format. Again some options and syntax may work differently in the
+Beamer format. Read through the Beamer documentation to learn more about
+what is possible.
+\url{http://rmarkdown.rstudio.com/beamer_presentation_format.html}
+
+For the most part you can switch between the different slide formats
+without too much trouble but you'll notice that the 2-columns option
+only worked for the ioslides format.
+
+\section{RevealJS}\label{revealjs}
+
+Another HTML presentation format gaining popularity is the revealjs
+format. To use this format, we first have to install the R package for
+this slide presentation format.
+
+See the details at
+\url{http://rmarkdown.rstudio.com/revealjs_presentation_format.html}
+
+Also learn more at \url{http://lab.hakim.se/reveal-js/\#/} and
+
+\url{https://github.com/hakimel/reveal.js/}
+
+In RStudio, click on Tools/Install Package, make sure the CRAN
+repository is selected and type in revealjs. Alternatively, in the
+Console window you can type in the R command install.packages with the
+name of the package revealjs put in quotes between the parentheses
+
+\texttt{install.packages("revealjs")}
+
+Once the revealjs package is installed, we can now access a revealjs
+slide template by going to File/New File/R Markdown file -- choose From
+Templates and look for ``Reveal.js Presentation (HTML)''.
+
+By the way, any other R packages you have installed that have R markdown
+templates available will be listed here in the Templates window. Later
+in this course you will learn about more R packages and templates that
+are available and you will learn how to create an R package with your
+own template!
+
+For now, let's go ahead and create a new R markdown file using the
+revealjs presentation template. This will create a set of slides similar
+to those we just did using ioslides or slidy.
+
+You will notice that when the new R markdown file was created, this time
+the YAML header is slightly different -- only the title and output were
+defined. Let's go ahead and add back author and date to your YAML
+header.
+
+Click KNIT to revealjs\_presentation to see the resulting HTML slides.
+These slides are produced with a default slide transition animation.
+
+Let's try changing the default slide transition to ``zoom'' (see list at
+\url{http://rmarkdown.rstudio.com/revealjs_presentation_format.html\#slide_transitions})
+
+To change a parameter in the YAML header we will move the
+revealjs::revealjs\_presentation after output: to a new line and indent
+it 2 spaces. Then we add a colon: and on a 3rd new line also indented
+another 2 spaces (4 space total) we add the transition option we want as
+follows.
+
+\begin{verbatim}
+output: 
+  revealjs::revealjs_presentation:
+    transition: zoom
+\end{verbatim}
+
+Save your file and KNIT to revealjs\_presentation to see the transition
+changes.
+
+The revealjs format also utilizes themes to apply some styling to the
+slides using color. See the example provided at
+\url{http://rmarkdown.rstudio.com/revealjs_presentation_format.html\#appearance_and_style}
+
+Let's add a few more lines to your YAML header and give your slides some
+color. We'll set the theme to solarized, the highlight to kate and the
+center option to true to give us this YAML header
+
+\begin{verbatim}
+output: 
+  revealjs::revealjs_presentation:
+    transition: zoom
+    theme: solarized
+    highlight: kate
+    center: true
+\end{verbatim}
+
+All of the keywords after revealjs::revealjs\_presentation: are specific
+parameters or options available in the revealjs\_presentation format
+from the revealjs package.
+
+Save your file again. KNIT to revealjs\_presentation to see your updated
+slides with a new color and format.
+
+Take a few moments and try different options and settings by modifying
+the YAML header to experiment with making changes that affect your final
+presentation. Refer back to the revealjs format to see what options are
+available,
+\url{http://rmarkdown.rstudio.com/revealjs_presentation_format.html}
+
+\section{Backup}\label{backup}
+
+Finally, be sure to back everything up and save your changes to your
+Github repository.
+
+Open Git Bash and change to the directory for your Github repository
+created for ``Module2\_rmd1'' -- go to:
+
+\texttt{C:\textbackslash{}RepTemplates\textbackslash{}Module2\_rmd1}
+
+Once in that directory, type in the following 4 Git commands to check
+the status of your local files compared to your Github cloud repository;
+add or stage the modified files; commit your changes; and then push the
+changes to your Github cloud repository.
+
+\begin{verbatim}
+git status
+git add .
+git commit –m “created multiple slide presentation formats”
+git push
+\end{verbatim}
+
+\chapter{Book Format}\label{books}
+
+\section{Intro Script}\label{intro-script-1}
+
+In this lesson, I'm going to show you how to create a book using R
+markdown.
+
+\section{Bookdown}\label{bookdown}
+
+For this lesson we will be working with the bookdown demo repository. Go
+to \url{https://github.com/rstudio/bookdown-demo}. To get started, we're
+going to download this whole repository as a ZIP file. Click on the
+green Clone or Download button and Download as a ZIP file into your
+local directory for this course
+
+\texttt{C:\textbackslash{}RepResearchCourse}
+
+Then unzip this file into this folder. When you get done you should have
+all of the files from the bookdown-demo repository in this directory
+
+\texttt{C:\textbackslash{}RepResearchCourse\textbackslash{}bookdown-demo-master}
+
+In this directory there is ALREADY an .Rproj file -- so this repository
+already comes with an RStudio project ready to go.
+
+Start RStudio and Click Open Project and select bookdown-demo.Rproj in
+this directory
+
+\texttt{C:\textbackslash{}RepResearchCourse\textbackslash{}bookdown-demo-master}
+
+The first thing to note is that in the upper right window, there is now
+a TAB that says Build. This TAB will be used to ``Build'' the final
+book. However, you will notice that there is NO GIT TAB -- this is
+because we need to re-establish a link using GIT back to your Github
+account. To do this you may want to refer to Jenny Bryan's Happy Git and
+Github for user book -- Chapter 18 on how to connect to Github when you
+have an Existing Project and you are connecting to Github last
+
+\url{http://happygitwithr.com/existing-github-last.html}
+
+To turn GIT on in RStudio, click on Tools/Project options -- click on
+Git/SVN. At the moment, the Version Control system says ``none'' --
+click on the arrow and choose Git. Another window will pop open asking
+if you want to initialize a new GIT repository for this project -- click
+YES. Then it will say you need to restart RStudio -- click YES you want
+to do this now.
+
+After RStudio restarts, you'll notice that you now have the GIT TAB in
+the window at the upper right next to the Build TAB. But we're not done
+-- we still need to establish a connection between your local
+``repository'' (the directory with all of the files and RStudio project
+for the bookdown-demo) and your Github cloud account.
+
+Before we connect to the cloud, you need to create a new repository in
+your Github account. Log into your Github account and Click New
+Repository. To avoid confusion, go ahead and name your new repository
+the same as your RStudio project ``bookdown\_demo''. However, DO NOT
+initialize it with a README. Click Create Repository. Your repository is
+created but there are NO FILES in it -- yet.
+
+Let's connect using GIT. Open Git Bash and change directory to
+
+\texttt{C:\textbackslash{}RepResearchCourse\textbackslash{}bookdown-demo-master}
+
+Let's stage -- add all of the files
+
+\texttt{git\ add\ .}
+
+Next let's commit these files
+
+\texttt{git\ commit\ –m\ “add\ files\ for\ bookdown\ demo”}
+
+BUT BEFORE we can PUSH these up to the cloud, we need to connect this
+directory to your cloud account. To do this -- go back to the Github
+repository you just created and click the ``copy to clipboard'' button
+to get the URL for the repository from the 1st line you can see in your
+browser for the ``Quick Setup''
+
+Now go back to GIT BASH and type in ``git remote add origin'' followed
+by the URL you just copied to your clipboard.
+
+git remote add origin
+\url{https://github.com/melindahiggins2000/bookdown_demo.git}
+
+The next step is to PUSH your content. However, the syntax is slightly
+different since this is our first time connecting the Github account for
+this repository to your local drive. According to Jenny Bryan we need to
+``cement the tracking relationship between your GitHub repository and
+the local repo by pushing and setting the ``upstream'' remote''. To so
+this type in the following GIT command.
+
+\texttt{git\ push\ -u\ origin\ master}
+
+This will take a minute or to two to run. When it finishes, go back and
+refresh your Github repository and you should now see all of the
+bookdown\_demo files in your cloud account.
+
+Now that you have the basic files and have everything backed up to your
+Github account and synched up, let's dive into all of these files and
+see how everything works together.
+
+Go back to RStudio, let's look at the files. The .gitignore file
+``specifies intentionally untracked files that Git should ignore.'' See
+the GIT documentation at \url{https://git-scm.com/docs/gitignore}
+
+RStudio created a .Rhistory file (which is empty at the moment which is
+ok).
+
+Go ahead and click on the bookdown-demo.Rproj. This opens a window
+showing the various Project Settings for this RStudio project. This is
+the same window that pops up when you click on Tools/Project Options.
+The key elements to notice in this window are the settings in the
+Git/SVN tab which should show that YES you are using Version Control and
+the URL of your Github repository is now listed. Also see the settings
+under the Build Tools. Here the Project Build tools should show Website
+and we'll keep all of the other default settings for (Project Root) for
+the Site Directory, all formats for book output formats, and the box is
+checked for preview book after building and re-knit current preview when
+supporting files change.
+
+There are 3 YAML files. YAML header information can be kept in a
+separate file instead of at the top of an R Markdown file which is what
+has been done here.
+
+\texttt{.travis.yml} -- this YAML file provides some settings if you
+choose to set-up TRAVIS CI for ``continuous integration'' -- learn more
+about TRAVIS CI at \url{https://travis-ci.org/} - this is beyond the
+scope of this course, but may be worthwhile learning more if you plan to
+write computer programs and scripts for data analysis.
+
+\texttt{\_bookdown.yml} -- this YAML file contains information about the
+book, like the filename for the book and chapter names.
+
+\texttt{\_output.yml} -- this file has various options for compiling the
+book in multiple formats like gitbook (which is an HTML format), PDF
+book and even an EPUB book format.
+
+There are 2 ``SHELL'' script files (\_build.sh and \_deploy.sh) we will
+ignore for now
+
+There are 2 CSS (cascading style sheets) files (style.css and toc.css)
+which contain codes for formatting the resulting HTML format for the
+book. We will not change these files for now.
+
+There is a DESCRIPTION and LICENSE file we will ignore for now. Feel
+free to view these files and learn more about them in the Bookdown book
+\url{https://bookdown.org/yihui/bookdown/} You may want to update the
+LICENSE file in the future if you plan on distributing your book online
+under a different LICENSE.
+
+There is also a README.md file which you can edit later if you wish to
+do so.
+
+There is a file called preamble.tex which has some important formatting
+and setup information for compiling the book to PDF format using LaTeX.
+We can ignore this for now also.
+
+The remaining 7 files are all R Markdown RMD files. The introductory
+chapter is defined by index.Rmd. Go ahead and open this file.
+
+At the beginning of this index.Rmd file there is another YAML header.
+For now, go ahead and change the author to your name.
+
+Notice the YAML keyword for bibliography -- this line sets up the
+references used or created when this book is compiled or rendered. There
+are 2 BIB files listed book.bib which is a file in your repository and
+packages.bib which does not exist yet. Packages.bib will be created when
+the book is built. These BIB files are BibTeX formatted files -- learn
+more at \url{http://www.bibtex.org/}
+
+After this introductory chapter there are 6 chapters each named
+beginning with a number and a short description. Take a few minutes and
+open and look at each of these RMD files. When you look at these RMD
+files you will notice that there is NO YAML at the top of these files.
+And each RMD file starts with a level 1 header indicated by 1 hastag \#.
+
+Let's try building the book into an HTML book. Go to the Build TAB at
+the top right. Click the down arrow for Build Book and choose
+bookdown::gitbook. You may be prompted to install a package as needed.
+Just say yes.
+
+If all goes well, your book will appear in the Viewer window. Let's open
+a File Explorer window to see the new files created.
+
+You'll notice that the file packages.bib was created. This file now has
+the BibTeX for all of the citations for each R package used to build
+this book.
+
+There are also 2 new folders that were created
+
+\texttt{\_book} -- this directory has all of the HTML files to see the
+book in HTML format. If you go to this folder and double click on
+index.html, you will be able to see the book in a browser window.
+
+\texttt{\_bookdown\_files} -- this folder has a few more subfolders and
+an image that was produced by one of R code chunks that made a plot in
+the book.
+
+If you have LaTeX installed, try making a PDF copy of the book -- go to
+Build Book and click bookdown::pdf\_book
+
+When this finishes compiling, there will now be a new file in the \_book
+directory called bookdown-demo.pdf.
+
+Let's try one more change. Open the \_bookdown.yml YAML file. After the
+chapter\_name line, add a line with this option for the output directory
+
+\texttt{output\_dir:\ docs}
+
+Click Build Book to bookdown::gitbook to rebuild the book into an HTML
+format. This time instead of all of the HTML files being placed in the
+\_book directory, a new directory is created called docs and all of the
+HTML and supporting files are placed here. There is a reason we created
+the docs directory - I'll show you why we want to save these HTML files
+into the docs directory in just a minute.
+
+Let's go ahead and back up all of these changes and sync everything up
+to your Github repository.
+
+Open Git Bash and change to the directory for your Github repository
+created for ``bookdown-demo'' -- go to:
+
+\texttt{C:\textbackslash{}RepResearchCourse\textbackslash{}bookdown-demo-master}
+
+Once in that directory, type in the following 4 Git commands to check
+the status of your local files compared to your Github cloud repository;
+add or stage the modified files; commit your changes; and then push the
+changes to your Github cloud repository.
+
+\begin{verbatim}
+git status
+git add .
+git commit –m “compiled bookdown demo”
+git push
+\end{verbatim}
+
+Open your browser and go to your bookdown\_demo repository. Check to
+make sure your changes were pushed to your Github cloud repository. Now
+at the top of your repository at the far right there is a gear-shaped
+icon for the settings of your repository. Click on this icon.
+
+Scroll about half way down the page to the section titled Github Pages.
+We're going to set up a ``webpage'' for your book. Click on the button
+for Source -- change it from ``None'' to ``master branch/docs folder''
+and click Save. After you click save, the page will refresh and if you
+scroll back down to the Github Pages section of the setting page, you'll
+see the URL for your book's website. It should look something like
+
+\url{https://USERNAME.github.io/bookdown_demo/}
+
+\url{https://melindahiggins2000.github.io/bookdown_demo/}
+
+Click on this URL and you should now see your book online!!
+Congratulations you have now created a book and served it online. Plus,
+since we have everything connected using Git from your local drive to
+your Github cloud account, AND we have it setup to publish to your /docs
+directory - then any time you make changes to your book and sync the
+files up using Git, your online book will be updated also!!
+
+Take a few moments and try making changes to the different RMD files for
+each chapter by adding text, inserting some R code, adding a plot or an
+image and recompile the book, resync the files to Github and view the
+changes.
+
+We have only barely scratched the surface on creating a book using the
+bookdown package. But I encourage you to learn more because a BOOK
+format is a wonderful way to organize multiple related documents
+together in one nice neat package even if your intention was not to
+write a ``book'' per se, but to simply organize a multi-component
+report.
+
+I highly recommend Yihui Xie's bookdown book at
+\url{https://bookdown.org/yihui/bookdown/}
+
+I also recommend checking out other books created using the bookdown
+package at \url{https://bookdown.org/}
+
+You may also be interested to learn more about Gitbook as well at
+\url{https://www.gitbook.com/}
+
+\chapter{Exercise - Air Quality Report}\label{airqualex}
+
+\section{Intro Script}\label{intro-script-2}
+
+For your graded assignment, you will need to create an R Markdown file
+with each of the following 8 elements and then answer questions about
+the resulting document.
+
+Create an R Markdown file with the following 8 elements:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Title ``The Air Quality Dataset''
+\item
+  Author: ``your name''
+\item
+  A level 2 header ``Summary of Air Quality Dataset'' followed by
+\item
+  this paragraph. In this paragraph provide the syntax to:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    show ``airquality'' in non-proportional font using backticks;
+  \item
+    create a non-numbered bulleted list for the 6 variables in the
+    dataset
+  \item
+    put each variable name in bold using double asterisks
+  \item
+    put everything in parentheses in italics by placing a single
+    underscore immediately before and after the opening and closing
+    parentheses
+  \item
+    notice that the 1st sentence contains an inline footnote which
+    should appear at the bottom of your document when compiled
+  \end{itemize}
+\end{enumerate}
+
+This exercise will be working with the built-in airquality
+dataset.\footnote{Chambers, J. M., Cleveland, W. S., Kleiner, B. and
+  Tukey, P. A. (1983) Graphical Methods for Data Analysis. Belmont, CA:
+  Wadsworth.} This dataset contains 154 daily air quality measurements
+in New York from May 1, 1973 (a Tuesday) to September 30, 1973. The
+dataset contains 6 variables:
+
+\texttt{Ozone}: Mean ozone in parts per billion (ppb) from 1300 to 1500
+hours at Roosevelt Island;
+
+\texttt{Solar.R}: Solar radiation in Langleys (lang) in the frequency
+band 4000--7700 Angstroms from 0800 to 1200 hours at Central Park;
+
+\texttt{Wind}: Average wind speed in miles per hour (mph) at 0700 and
+1000 hours at LaGuardia Airport;
+
+\texttt{Temp}: Maximum daily temperature in degrees Fahrenheit (oF) at
+La Guardia Airport;
+
+\texttt{Month}: numeric month (1-12)
+
+\texttt{Day}: numeric Day of the month (1-31)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\item
+  a second level 3 header ``Table of Top of the Air Quality Dataset''
+  followed by
+\item
+  a table of the head of the airquality dataset -- insert an R code
+  chunk with the following code
+\end{enumerate}
+
+\begin{verbatim}
+knitr::kable(head(airquality))
+\end{verbatim}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\item
+  a third level 3 header ``Plot of Ozone by Temperature -- Air Quality
+  Dataset'' followed by
+\item
+  a plot of the temperature and ozone from the built-in airquality
+  dataset -- insert an R code chunk with the following code
+\end{enumerate}
+
+\begin{verbatim}
+plot(airquality$Temp, airquality$Ozone, 
+        main="Airquality: Ozone by Temperature")
+\end{verbatim}
+
+KNIT the document to HTML and KNIT to WORD
 
 \part{Appendix}\label{part-appendix}
 

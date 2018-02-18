@@ -1,0 +1,55 @@
+# Exercise - Air Quality Report {#airqualex}
+
+## Intro Script
+
+For your graded assignment, you will need to create an R Markdown file with each of the following 8 elements and then answer questions about the resulting document.
+
+Create an R Markdown file with the following 8 elements:
+
+1. Title “The Air Quality Dataset”
+
+2. Author: “your name”
+
+3. A level 2 header “Summary of Air Quality Dataset” followed by
+
+4. this paragraph. In this paragraph provide the syntax to:
+
+    * show “airquality” in non-proportional font using backticks;
+    * create a non-numbered bulleted list for the 6 variables in the dataset
+    * put each variable name in bold using double asterisks
+    * put everything in parentheses in italics by placing a single underscore immediately before and after the opening and closing parentheses
+    * notice that the 1st sentence contains an inline footnote which should appear at the bottom of your document when compiled
+
+This exercise will be working with the built-in airquality dataset.^[ Chambers, J. M., Cleveland, W. S., Kleiner, B. and Tukey, P. A. (1983) Graphical Methods for Data Analysis. Belmont, CA: Wadsworth.] This dataset contains 154 daily air quality measurements in New York from May 1, 1973 (a Tuesday) to September 30, 1973. The dataset contains 6 variables:
+
+`Ozone`: Mean ozone in parts per billion (ppb) from 1300 to 1500 hours at Roosevelt Island;
+
+`Solar.R`: Solar radiation in Langleys (lang) in the frequency band 4000–7700 Angstroms from 0800 to 1200 hours at Central Park;
+
+`Wind`: Average wind speed in miles per hour (mph) at 0700 and 1000 hours at LaGuardia Airport;
+
+`Temp`: Maximum daily temperature in degrees Fahrenheit (oF) at La Guardia Airport;
+
+`Month`: numeric month (1-12)
+
+`Day`: numeric Day of the month (1-31)
+
+5. a second level 3 header “Table of Top of the Air Quality Dataset” followed by
+
+6. a table of the head of the airquality dataset – insert an R code chunk with the following code
+
+```
+knitr::kable(head(airquality))
+```
+
+7. a third level 3 header “Plot of Ozone by Temperature – Air Quality Dataset” followed by
+
+8. a plot of the temperature and ozone from the built-in airquality dataset – insert an R code chunk with the following code
+
+```
+plot(airquality$Temp, airquality$Ozone, 
+        main="Airquality: Ozone by Temperature")
+```
+
+KNIT the document to HTML and KNIT to WORD 
+

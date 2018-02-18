@@ -52,7 +52,7 @@ Include things like:
 * filling in the gaps
 * seemingly disconnected applications brought together with rmarkdown glue
 
-### Coursera Course
+### Coursera Course {-}
 
 This book is <font color="red">based on</font> the Coursera Course "Reproducible Templates for Analysis and Dissemination", [https://www.coursera.org/learn/reproducible-templates-analysis](https://www.coursera.org/learn/reproducible-templates-analysis)
 

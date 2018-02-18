@@ -1,0 +1,59 @@
+map scripts to chapters
+
+chapter
+  - script(s) included
+
+===================================
+
+01-HistoryExemplars.Rmd
+  - V2_Module1_lesson01_script.docx
+  - V2_Module1_lesson02_script.docx
+
+02-whyReproducibility.Rmd
+  - V2_Module1_lesson03 and 04_script.docx
+  
+03-gettingStarted.Rmd
+  - V2_Module1_lesson05_script.docx
+  - V2_Module1_lesson06_script_part1.docx - partial
+  - more details to be added on R packages, LaTeX, etc...
+
+04-gitexercise.Rmd
+  - V2_Module1_lesson06_script_part1.docx - partial - to RStudio interface
+  - Module1_lesson06_script_part2.docx
+
+05-firstproject.Rmd
+  - Module 1 - Lesson 07.pdf
+  - still need to go through steps and screen shots on creating a new RStudio project, RMD document, with backup and sync using GIT & Github
+  
+06-doccomponents
+  - Module 2 – lesson 01: Document Components
+
+07-rmdsyntax
+  - Module 2 – lesson 02: Document Formatting - really about rmarkdown syntax
+
+08-docelements
+  - Module 2 – lesson 03: Document Elements
+
+09-presentations
+  - Module 2 – lesson 04: Presentation Formats
+
+10-books
+  - Module 2 – lesson 05: A Book Format
+  
+11-airqualex
+  - Module 2 – lesson 06: Exercise Overview - using Air Quality Dataset
+
+
+
+
+
+
+
+========================================
+
+Latex notes
+
+https://rosannavanhespenresearch.wordpress.com/2016/03/29/writing-your-thesis-with-r-markdown-4-putting-the-thesis-together/
+
+https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/
+

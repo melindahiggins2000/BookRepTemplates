@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Reproducible Templates (Book in Development)</title>
+  <meta name="description" content="Reproducible Templates, Reproducible Research, R and RStudio, Git and Github, rmarkdown, knitr, blogdown, bookdown">
+  <meta name="generator" content="bookdown 0.5.10 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Reproducible Templates (Book in Development)" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Reproducible Templates, Reproducible Research, R and RStudio, Git and Github, rmarkdown, knitr, blogdown, bookdown" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Reproducible Templates (Book in Development)" />
+  
+  <meta name="twitter:description" content="Reproducible Templates, Reproducible Research, R and RStudio, Git and Github, rmarkdown, knitr, blogdown, bookdown" />
+  
+
+<meta name="author" content="Melinda K. Higgins">
+
+
+<meta name="date" content="2018-02-18">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="rmdsyntax.html">
+<link rel="next" href="presentations.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Reproducible Templates</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-read-this-book"><i class="fa fa-check"></i>Why read this book</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#coursera-course"><i class="fa fa-check"></i>Coursera Course</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#structure-of-the-book"><i class="fa fa-check"></i>Structure of the book</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#software-information-and-conventions"><i class="fa fa-check"></i>Software information and conventions</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgments"><i class="fa fa-check"></i>Acknowledgments</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i>Prerequisites</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#r-packages-used-in-this-book"><i class="fa fa-check"></i>R Packages Used in This Book</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#r-session-info-as-of-2018-02-18-073041"><i class="fa fa-check"></i>R Session Info as of 2018-02-18 07:30:41</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="about-the-author.html"><a href="about-the-author.html"><i class="fa fa-check"></i>About the Author</a></li>
+<li class="part"><span><b>I Part One</b></span></li>
+<li class="chapter" data-level="1" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>1</b> History &amp; Exemplars</a><ul>
+<li class="chapter" data-level="1.1" data-path="history.html"><a href="history.html#reproducible-research"><i class="fa fa-check"></i><b>1.1</b> Reproducible Research</a></li>
+<li class="chapter" data-level="1.2" data-path="history.html"><a href="history.html#literate-programming"><i class="fa fa-check"></i><b>1.2</b> Literate Programming</a></li>
+<li class="chapter" data-level="1.3" data-path="history.html"><a href="history.html#dynamic-documentation"><i class="fa fa-check"></i><b>1.3</b> Dynamic Documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="whyrep.html"><a href="whyrep.html"><i class="fa fa-check"></i><b>2</b> Why Reproducibility?</a><ul>
+<li class="chapter" data-level="2.1" data-path="whyrep.html"><a href="whyrep.html#data"><i class="fa fa-check"></i><b>2.1</b> Data</a></li>
+<li class="chapter" data-level="2.2" data-path="whyrep.html"><a href="whyrep.html#organization-workflow"><i class="fa fa-check"></i><b>2.2</b> Organization &amp; Workflow</a></li>
+<li class="chapter" data-level="2.3" data-path="whyrep.html"><a href="whyrep.html#dissemination"><i class="fa fa-check"></i><b>2.3</b> Dissemination</a></li>
+<li class="chapter" data-level="2.4" data-path="whyrep.html"><a href="whyrep.html#com"><i class="fa fa-check"></i><b>2.4</b> 538.com</a></li>
+<li class="chapter" data-level="2.5" data-path="whyrep.html"><a href="whyrep.html#saving-lives"><i class="fa fa-check"></i><b>2.5</b> Saving Lives</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="getstarted.html"><a href="getstarted.html"><i class="fa fa-check"></i><b>3</b> Getting Started</a><ul>
+<li class="chapter" data-level="3.1" data-path="getstarted.html"><a href="getstarted.html#r"><i class="fa fa-check"></i><b>3.1</b> R</a></li>
+<li class="chapter" data-level="3.2" data-path="getstarted.html"><a href="getstarted.html#rstudio"><i class="fa fa-check"></i><b>3.2</b> RStudio</a></li>
+<li class="chapter" data-level="3.3" data-path="getstarted.html"><a href="getstarted.html#github"><i class="fa fa-check"></i><b>3.3</b> Github</a></li>
+<li class="chapter" data-level="3.4" data-path="getstarted.html"><a href="getstarted.html#git"><i class="fa fa-check"></i><b>3.4</b> GIT</a></li>
+<li class="chapter" data-level="3.5" data-path="getstarted.html"><a href="getstarted.html#r-packages"><i class="fa fa-check"></i><b>3.5</b> R Packages</a></li>
+<li class="chapter" data-level="3.6" data-path="getstarted.html"><a href="getstarted.html#other"><i class="fa fa-check"></i><b>3.6</b> other</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="gitexercise.html"><a href="gitexercise.html"><i class="fa fa-check"></i><b>4</b> Exercise with GIT &amp; Github</a><ul>
+<li class="chapter" data-level="4.1" data-path="gitexercise.html"><a href="gitexercise.html#using-git-and-github"><i class="fa fa-check"></i><b>4.1</b> Using Git and Github</a></li>
+<li class="chapter" data-level="4.2" data-path="gitexercise.html"><a href="gitexercise.html#using-the-rstudio-interface"><i class="fa fa-check"></i><b>4.2</b> Using the RStudio Interface</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="firstproject.html"><a href="firstproject.html"><i class="fa fa-check"></i><b>5</b> First Project and Document</a></li>
+<li class="chapter" data-level="6" data-path="doccomponents.html"><a href="doccomponents.html"><i class="fa fa-check"></i><b>6</b> Document Components</a><ul>
+<li class="chapter" data-level="6.1" data-path="doccomponents.html"><a href="doccomponents.html#sections-of-a-document"><i class="fa fa-check"></i><b>6.1</b> Sections of a Document</a></li>
+<li class="chapter" data-level="6.2" data-path="doccomponents.html"><a href="doccomponents.html#yaml"><i class="fa fa-check"></i><b>6.2</b> YAML</a></li>
+<li class="chapter" data-level="6.3" data-path="doccomponents.html"><a href="doccomponents.html#body"><i class="fa fa-check"></i><b>6.3</b> BODY</a></li>
+<li class="chapter" data-level="6.4" data-path="doccomponents.html"><a href="doccomponents.html#document-metadata"><i class="fa fa-check"></i><b>6.4</b> Document Metadata</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="rmdsyntax.html"><a href="rmdsyntax.html"><i class="fa fa-check"></i><b>7</b> Document Formatting - R Markdown Syntax</a><ul>
+<li class="chapter" data-level="7.1" data-path="rmdsyntax.html"><a href="rmdsyntax.html#script"><i class="fa fa-check"></i><b>7.1</b> Script</a></li>
+<li class="chapter" data-level="7.2" data-path="rmdsyntax.html"><a href="rmdsyntax.html#body-of-text"><i class="fa fa-check"></i><b>7.2</b> Body of text</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="docelements.html"><a href="docelements.html"><i class="fa fa-check"></i><b>8</b> Document Elements</a><ul>
+<li class="chapter" data-level="8.1" data-path="docelements.html"><a href="docelements.html#script-intro"><i class="fa fa-check"></i><b>8.1</b> Script Intro</a></li>
+<li class="chapter" data-level="8.2" data-path="docelements.html"><a href="docelements.html#figures"><i class="fa fa-check"></i><b>8.2</b> Figures</a></li>
+<li class="chapter" data-level="8.3" data-path="docelements.html"><a href="docelements.html#images"><i class="fa fa-check"></i><b>8.3</b> Images</a></li>
+<li class="chapter" data-level="8.4" data-path="docelements.html"><a href="docelements.html#tables"><i class="fa fa-check"></i><b>8.4</b> Tables</a></li>
+<li class="chapter" data-level="8.5" data-path="docelements.html"><a href="docelements.html#videos-and-animations"><i class="fa fa-check"></i><b>8.5</b> Videos and animations</a></li>
+<li class="chapter" data-level="8.6" data-path="docelements.html"><a href="docelements.html#equations"><i class="fa fa-check"></i><b>8.6</b> Equations</a></li>
+<li class="chapter" data-level="8.7" data-path="docelements.html"><a href="docelements.html#footnotes"><i class="fa fa-check"></i><b>8.7</b> Footnotes</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="presentations.html"><a href="presentations.html"><i class="fa fa-check"></i><b>9</b> Presentation Formats</a><ul>
+<li class="chapter" data-level="9.1" data-path="presentations.html"><a href="presentations.html#intro-script"><i class="fa fa-check"></i><b>9.1</b> Intro Script</a></li>
+<li class="chapter" data-level="9.2" data-path="presentations.html"><a href="presentations.html#ioslides"><i class="fa fa-check"></i><b>9.2</b> Ioslides</a></li>
+<li class="chapter" data-level="9.3" data-path="presentations.html"><a href="presentations.html#slidy"><i class="fa fa-check"></i><b>9.3</b> Slidy</a></li>
+<li class="chapter" data-level="9.4" data-path="presentations.html"><a href="presentations.html#beamer"><i class="fa fa-check"></i><b>9.4</b> Beamer</a></li>
+<li class="chapter" data-level="9.5" data-path="presentations.html"><a href="presentations.html#revealjs"><i class="fa fa-check"></i><b>9.5</b> RevealJS</a></li>
+<li class="chapter" data-level="9.6" data-path="presentations.html"><a href="presentations.html#backup"><i class="fa fa-check"></i><b>9.6</b> Backup</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="books.html"><a href="books.html"><i class="fa fa-check"></i><b>10</b> Book Format</a><ul>
+<li class="chapter" data-level="10.1" data-path="books.html"><a href="books.html#intro-script-1"><i class="fa fa-check"></i><b>10.1</b> Intro Script</a></li>
+<li class="chapter" data-level="10.2" data-path="books.html"><a href="books.html#bookdown"><i class="fa fa-check"></i><b>10.2</b> Bookdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="airqualex.html"><a href="airqualex.html"><i class="fa fa-check"></i><b>11</b> Exercise - Air Quality Report</a><ul>
+<li class="chapter" data-level="11.1" data-path="airqualex.html"><a href="airqualex.html#intro-script-2"><i class="fa fa-check"></i><b>11.1</b> Intro Script</a></li>
+</ul></li>
+<li class="part"><span><b>II Appendix</b></span></li>
+<li class="appendix"><span><b>Appendix</b></span></li>
+<li class="chapter" data-level="A" data-path="first-appendix-section.html"><a href="first-appendix-section.html"><i class="fa fa-check"></i><b>A</b> First appendix section</a></li>
+<li class="chapter" data-level="B" data-path="another-appendix-section.html"><a href="another-appendix-section.html"><i class="fa fa-check"></i><b>B</b> another appendix section</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Reproducible Templates <em>(Book in Development)</em></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="docelements" class="section level1">
+<h1><span class="header-section-number">Chapter 8</span> Document Elements</h1>
+<div id="script-intro" class="section level2">
+<h2><span class="header-section-number">8.1</span> Script Intro</h2>
+<p>For this lesson we’re going to continue working with the same R markdown document “module2_rmd1.Rmd”. So, If you need to, go ahead and log in to your Github account, open RStudio, and open the RStudio project for “Module2_rmd1”.</p>
+<p>So far you’ve explored the YAML header and tried out several R markdown syntax markings to change the formatting of text in your document. Next we’re going to see how to insert other objects and elements within your document. In this lesson you’ll learn how to insert:</p>
+<ul>
+<li>Figures; images; photos; or pictures</li>
+<li>Tables</li>
+<li>Videos or animations</li>
+<li>Equations</li>
+<li>and footnotes</li>
+</ul>
+</div>
+<div id="figures" class="section level2">
+<h2><span class="header-section-number">8.2</span> Figures</h2>
+<p>Take a look at the bottom of your current R markdown file. The last section of this current document contains a chunk of R code that makes a plot of the pressure dataset which is built into the base R software.</p>
+<p>Let’s take a quick look at this built-in dataset. Go to the Console windows (bottom left) and type in</p>
+<p><code>data1 &lt;- pressure</code></p>
+<p>which creates an object called “data1” that is assigned a copy of the built-in pressure dataset. Then click on the Environment TAB in the upper right window – click on the little table icon on the right – this opens the dataset in a viewer window at the top left. As you can see there are 2 columns of data and 19 rows for 19 data points of temperature and pressure. You can get more detailed information on this built-in dataset by looking it up in the HELP window. This brings up a help page on the pressure dataset which says that the pressure datasets is “Data on the relation between temperature in degrees Celsius and vapor pressure of mercury in millimeters (of mercury).”</p>
+<p>So, in the R chunk shown here, there is only 1 line of code between backticks <code>{r} ending with 3 more backticks</code></p>
+<p>This line of code makes a scatterplot of the pressure (along the Y vertical axis) against temperature (along the X horizontal axis).</p>
+<p><code>plot(pressure)</code></p>
+<p>By running this R code chunk, a scatterplot is created and then inserted in the document where this code was specified.</p>
+<p>By the way, we can control the size of the figure using code “chunk options”. You can learn more about code chunk options at Yihui Xie’s website for the knitr package at <a href="https://yihui.name/knitr/options/" class="uri">https://yihui.name/knitr/options/</a></p>
+<p>Let’s change the figure width and height using the fig.width and fig.height chunk options. These options come after the r in the {r} curly brackets. The current R code chunk has the following</p>
+<p><code>{r pressure, echo=FALSE}</code></p>
+<p>Let’s explore each piece.</p>
+<p>The curly brackets indicate that this is a code chunk and the r indicates that the code will be R code.</p>
+<p>The word pressure is a label of the code chunk. This is helpful for debugging later. When you get an error the R Markdown log will show in which code chunk the error occurred. Giving them descriptive names will help you keep track.</p>
+<p>Let’s look at the R Markdown TAB at the bottom left and review the log of when we last rendered or compiled the document – when we last ran KNIT.</p>
+<p>After the chunk label and a comma, there is already 1 chunk option saying echo=FALSE. This tells R markdown to hide this code chunk and not “echo” it or show it in the final document. So, if you look back at the documents you’ve made so far – all you see is the plot of the pressure dataset – you do not see the R code.</p>
+<p>At the very end of the document, let’s add another code chunk and alter this next figure slightly. Click the button in the editor window with a little green C with a + plus, click the down arrow for insert an R code chunk. When you click this, it automatically enters the 3 backticks with the r in curly brackets <code>{r} followed by a blank line and then 3 more backticks</code> ending the code chunk.</p>
+<p>Go to the blank line and type in</p>
+<p><code>plot(pressure)</code></p>
+<p>Now go back to the 1st line, let’s add the following options. We’ll add a new label “pressure2” since each code chunk has to have a unique chunk name. We’ll also add fig.width=5 and fig.height=5 which does 2 things – it will make the horizontal and vertical dimensions of the figure to be the same and should render a figure approximately 5 inches by 5 inches – see the chunk options described on Yihui Xie’s website.</p>
+<p><code>{r pressure2, fig.width=5, fig.height=5}</code></p>
+<p>Save the RMD file and KNIT to HTML as see the differences between the 2 plots. Not only will the plot sizes be different, in the 2nd one we left out the echo=FALSE so the R code was shown right before the 2nd plot. If you want to hide this code, go back and add echo=FALSE to the chunk options.</p>
+<p><code>{r pressure2, fig.width=5, fig.height=5, echo=FALSE}</code></p>
+<p>In RStudio 1.1.x, you’ll also notice that in the editor window, within the code chunk at the far right there are a couple of little icons. Click on the one that looks like a gear and another window pops up that shows various code chunk options available including</p>
+<ul>
+<li>The name of the code chunk</li>
+<li>What kind of output you want to show (with or without the code – setting echo-TRUE or FALSE)</li>
+<li>You can also turn on or off warnings and messages</li>
+<li>At the bottom you can also set the figure width and height – try changing this to 4 inches and watch the changes in your R markdown file.</li>
+</ul>
+<p>There is also a green arrow &gt; that you can click which will “run” the R code as if you were running R from the command line or from a standalone R script. If you click this, the plot(pressure) command will be executed and the plot will be generated in the Plots window.</p>
+</div>
+<div id="images" class="section level2">
+<h2><span class="header-section-number">8.3</span> Images</h2>
+<p>We do not have to use R code to add figures in your document. You can also bring in external images and pictures. Let’s use the picture called sunstar.png – the read ahead materials had instructions on how to download this picture. For now, let’s put this picture in the same directory as your R markdown document. If you want to see this in your document, you can use the simple R markdown syntax <code>![alt text](filename)</code></p>
+<p>Let’s create a new header in our document</p>
+<p><code>## Insert Images</code></p>
+<p>Here is an image inserted</p>
+<p><code>![sunstar](sunstar.png)</code></p>
+<p>You can also insert images off the web by linking directly to them via their web-address URL</p>
+<p>Here is the R logo</p>
+<p><code>![Rlogo](https://www.r-project.org/logo/Rlogo.svg)</code></p>
+<p>NOTE!! The image with the web-address URL will NOT compile correctly for the KNIT to WORD and KNIT to PDF since the image is not stored locally. If you want this image for a DOC or PDF formatted file, you will need to download the image and store it locally when you “KNIT” the final document. Then use the same syntax as you just did for sunstar.png. So, delete this section before you KNIT to WORD or KNIT to PDF.</p>
+</div>
+<div id="tables" class="section level2">
+<h2><span class="header-section-number">8.4</span> Tables</h2>
+<p>Doing tables in with R markdown or rather using Pandoc’s markdown can be done but is a tedious process for even simple tables. There are numerous examples provided at <a href="http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#tables" class="uri">http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#tables</a></p>
+<p>Typically, it is easier to use R code to generate a table. The best function for making tables using R markdown is the kable function from the knitr package, see <a href="https://yihui.name/knitr/" class="uri">https://yihui.name/knitr/</a> It may also help to install and learn more about the printr package also which improves the formatting of knitr output, see <a href="https://yihui.name/printr/" class="uri">https://yihui.name/printr/</a></p>
+<p>Let’s try a simple table of another built-in dataset, cars. Look at the help pages for cars. The cars dataset has 50 observations or rows and 2 columns with the 1st column having data on the speed of the cars and the 2nd column having data on the stopping distance. We can use the head function from base R to look at the top 6 rows of the cars dataset. The cars dataset is in an R object called a “data.frame” which the kable function handles like a table. So the following R chunk will make a table of the top 6 rows of the cars dataset.</p>
+<p>Let’s create another new header in our document</p>
+<p><code>## Insert Tables</code></p>
+<pre><code>
+ speed   dist
+------  -----
+     4      2
+     4     10
+     7      4
+     7     22
+     8     16
+     9     10</code></pre>
+<p>Let me explain the R code a little bit. Since the kable function comes from the knitr R package, it is good practice to list the package followed by 2 colons followed by the function so it is easy for you or anyone else reading your R code to know which package the function came from. There are literally tens of thousands of R packages and some have the same function name which do entirely different things. So, to avoid confusion it is always a good idea to list use the <code>package::function()</code> when using a function in R.</p>
+<p>So this code says to extract the “head” or top 6 rows of the cars dataset and use the kable function from the knitr package to print out a table in the final document.</p>
+<p>Go ahead and save your document and click KNIT to HTML to see the result. Feel free to also try KNIT to WORD and KNIT to PDF to see how the table appears in each of those formats.</p>
+<p>We can add other options to the kable function – like adding a table caption. Let’s add the option caption = “Top 6 Rows of Cars Dataset”</p>
+<pre><code>knitr::kable(head(cars),
+             caption = &quot;Top 6 Rows of Cars Dataset&quot;)</code></pre>
+<p>You’ll notice this added a caption or title at the top of the table in each of the formats (HTML, DOC and PDF).</p>
+</div>
+<div id="videos-and-animations" class="section level2">
+<h2><span class="header-section-number">8.5</span> Videos and animations</h2>
+<p>Suppose you have a video you want to include in your document. This doesn’t make sense for a printed final document, but these will work for a HTML document, you can view an embedded video. Let’s work again with the sunstar graphic as an animated GIF and as a MP4 video. The read ahead materials had instructions on how to download both the animated GIF “sunstar.gif” and video “sunstar.mp4” into a subfolder in your project called “sunstar”. Since these are in a directory called “sunstar” in your project folder, you need to include the folder name when you list the filename. The syntax for embedding videos and animated GIFs is similar to how images are inserted.</p>
+<pre><code>## Insert an Animated GIF and Video
+
+![sunstar](sunstar/sunstar.gif)
+
+![sunstar](sunstar/sunstar.mp4)</code></pre>
+<p>KNIT to HTML to see the results. You may need to open the saved html file in a separate browser window to see the embedded MP4 video. These videos will not work if you KNIT to WORD – the document will compile but these sections will be blank. If you try running KNIT to PDF you will get an error. So, Videos and Animated GIFs only work in HTML format – at least using this approach. New functions and methods are created daily, so there is probably a way to embed videos and animated GIFs in other formats if you look for it.</p>
+<p>In the final HTML document, you’ll notice that the animated GIF plays over and over again. But the MP4 file is embedded with a video viewer that you can click play to see the video. This is only a simple introduction to videos. This is only scratching the surface. There is a R package called vebmedr which allows embedding of videos like YouTube in your HTML documents. Learn more at <a href="http://ijlyttle.github.io/vembedr/" class="uri">http://ijlyttle.github.io/vembedr/</a></p>
+</div>
+<div id="equations" class="section level2">
+<h2><span class="header-section-number">8.6</span> Equations</h2>
+<p>For those of you not interested in typing math equations in your documents, you can skip this section. But if you are interested, know that you can embed equations using LaTeX syntax. For example, suppose we wanted to write out the equation for a simple linear regression model. We would embed the LaTeX formatting inside a block beginning and ending with 2 dollar signs <code>$$</code></p>
+<pre><code>## Insert an equation
+
+$$ Y = \beta_0 + \beta_1x $$</code></pre>
+<p>There are hundreds of websites with information, tutorials and help online for formatting equations using LaTeX. One example is <a href="https://www.sharelatex.com/learn/Mathematical_expressions" class="uri">https://www.sharelatex.com/learn/Mathematical_expressions</a> if you want to learn more.</p>
+</div>
+<div id="footnotes" class="section level2">
+<h2><span class="header-section-number">8.7</span> Footnotes</h2>
+<p>Finally, you might want to include a footnote in your document. The syntax for inserting a footnote is square brackets with an up arrow ^ inserted. You can add footnotes in one of two ways.</p>
+<p>First – you can simply add the notation where you want to add a footnote in the place in the text where you want the index number. And then at the END of the document you have to provide the content you want displayed with the footnote index.</p>
+<p>Second, you can use what is called an inline note. With an inline note you don’t have to remember to add the footnote references at the end. Let’s add the following to your document using both methods.</p>
+<pre><code>## Insert text with some footnotes
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+Here is an inline note.^[Inlines notes are easier to write, since you don&#39;t have to pick an identifier and move down to type the note.]
+
+[^1]: Here is the footnote.
+[^longnote]: Here&#39;s one with multiple blocks.</code></pre>
+<p>Save your document and KNIT to HTML to view your document.</p>
+<p>Finally, let’s make sure to back everything up and save your changes to your Github repository.</p>
+<p>Open Git Bash and change to the directory for your Github repository created for “Module2_rmd1” – so go to:</p>
+<p><code>C:\RepTemplates\Module2_rmd1</code></p>
+<p>Once in that directory, type in the following 4 Git commands to check the status of your local files compared to your Github cloud repository; add or stage the modified files; commit your changes; and then push the changes to your Github cloud repository.</p>
+<pre><code>git status
+git add .
+git commit –m “inserting multiple elements to my RMD file”
+git push</code></pre>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="rmdsyntax.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="presentations.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["BookRepTemplates.pdf", "BookRepTemplates.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "";
+    if (src === "" || src === "true") src = "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
