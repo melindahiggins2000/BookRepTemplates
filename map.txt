@@ -57,3 +57,18 @@ https://rosannavanhespenresearch.wordpress.com/2016/03/29/writing-your-thesis-wi
 
 https://eddjberry.netlify.com/post/writing-your-thesis-with-bookdown/
 
+# see more on headings and documentclass: book
+
+https://tex.stackexchange.com/questions/35433/creating-unnumbered-chapters-sections-plus-adding-them-to-the-toc-and-or-header
+
+============================================
+
+
+# Preface {-}
+
+\markboth{PREFACE}{PREFACE}
+
+
+# About the Author {-}
+
+\markboth{ABOUT THE AUTHOR}{ABOUT THE AUTHOR}

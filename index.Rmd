@@ -36,7 +36,10 @@ library(fivethirtyeight)
 #options("citation_format" = "pandoc")
 ```
 
+
 # Preface {-}
+
+\markboth{PREFACE}{PREFACE}
 
 This should be s short 2-3 paragraph summary of the book, what it is about and such.
 
