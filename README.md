@@ -1,4 +1,50 @@
-# Reproducible Templates
+# Reproducible Templates for Analysis and Dissemination
+
+===============================================================
+
+This book details tools and skills to improve your analyses by linking data, code and results dissemination (e.g., report, presentation, website, dashboard) into a seamless workflow. This book will help you create reusable workflow templates to improve your own efficiency. This information will also assist you with recreating a workflow that a previous coworker completed, revisiting a project you abandoned some time ago, or simply reproducing a document with a consistent format and process. Incomplete information about how the work was done, where the files are, and which is the most recent version can give rise to many complications. This book focuses on the proper end product creation process, allowing you and your colleagues to easily reproduce the components of your analyses. Throughout the exercises in this book, you will work with the R programming language, the RStudio IDE (interactive development interface) and the R Markdown package to help you build a portfolio of effective templates for reproducible analysis workflows.
+
+Academic Level: Beginner to Intermediate
+
+Table of Contents
+
+1. What is reproducibility and why should I care?
+    * a little history
+    * data, workflow, products
+    * real-world examples
+2. Setup your tools and get started
+    * GIT
+    * GITHUB
+    * R
+    * RStudio
+    * R markdown
+    * my first template
+3. Primary reproducible components
+    * YAML
+    * markdown
+    * code chunks
+    * tables
+    * figures
+    * other embedded files, media
+4. Documents
+    * HTML 
+    * DOC, OTF
+    * PDF
+5. Slide Presentations
+    * ioslides, slidy
+    * reveal.js
+    * beamer
+    * powerpoint
+6. Online content
+    * websites
+    * dashboards
+7. Books
+8. One analysis XX end products
+9. Automating your workflow
+10. Creating your own template package
+11. Appendices: TBA
+
+===============================================================
 
 This book is _**based on**_ the Coursera Course "Reproducible Templates for Analysis and Dissemination", [https://www.coursera.org/learn/reproducible-templates-analysis](https://www.coursera.org/learn/reproducible-templates-analysis)
 
@@ -30,7 +76,7 @@ The Course consists of 5 Modules:
 
 This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/ for how to compile this example.
 
-Updated on 11/25/2017
+Updated on 07/02/2020
 
 _development of book based on scripts and notes and other materials for reproducible templates course_
 

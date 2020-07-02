@@ -1,0 +1,28 @@
+documents
+- html
+- pdf
+- doc
+
+slides - presentations
+- ioslides, slidy
+- beamer
+- xaragin
+- reveal.js
+- powerpoint
+
+dashboards
+- flexdashboard
+
+interactive documents 
+- html widgets
+
+books
+- bookdown
+
+websites
+- html pretty
+
+custom templates
+
+
+
