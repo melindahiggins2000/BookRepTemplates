@@ -18,15 +18,16 @@ Table of Contents
     * R
     * RStudio
     * R markdown
-    * my first template
-3. Primary reproducible components
+    * workflow template
+    * my first document
+3. Main R markdown components 
     * YAML
     * markdown
     * code chunks
     * tables
     * figures
-    * other embedded files, media
-4. Documents
+    * other files and media
+4. Document formats
     * HTML 
     * DOC, OTF
     * PDF
@@ -38,8 +39,8 @@ Table of Contents
 6. Online content
     * websites
     * dashboards
-7. Books
-8. One analysis XX end products
+7. Books and other output formats
+8. One analysis - multiple products
 9. Automating your workflow
 10. Creating your own template package
 11. Appendices: TBA
