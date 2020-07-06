@@ -1,0 +1,29 @@
+# Online Formats {#online}
+
+## Websites
+
+More details to be added - with examples and structure as detailed at 
+
+* [https://rmarkdown.rstudio.com/lesson-13.html](https://rmarkdown.rstudio.com/lesson-13.html)
+* [https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
+
+## Dashboards
+
+Will build examples based on 
+
+* [https://rmarkdown.rstudio.com/lesson-12.html](https://rmarkdown.rstudio.com/lesson-12.html)
+* [https://rmarkdown.rstudio.com/flexdashboard/index.html](https://rmarkdown.rstudio.com/flexdashboard/index.html)
+
+## other examples like blogdown
+
+and other formats and examples to be explored at 
+
+* [https://rmarkdown.rstudio.com/formats.html](https://rmarkdown.rstudio.com/formats.html)
+* [https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/)
+
+## journal and other templates
+
+* [https://rmarkdown.rstudio.com/formats.html](https://rmarkdown.rstudio.com/formats.html)
+* rticles package [https://github.com/rstudio/rticles](https://github.com/rstudio/rticles)
+
+

@@ -1,0 +1,7 @@
+# Creating and disseimating your own templates {#template}
+
+## Make your own template package
+
+* making your own and disseminating through a package [https://chester.rbind.io/ecots2k16/template_pkg/](https://chester.rbind.io/ecots2k16/template_pkg/)
+
+

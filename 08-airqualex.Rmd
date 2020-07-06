@@ -1,4 +1,4 @@
-# Exercise - Air Quality Report {#airqualex}
+# One Analysis Multiple Outputs - Air Quality Report {#airqualex}
 
 ## Intro Script
 

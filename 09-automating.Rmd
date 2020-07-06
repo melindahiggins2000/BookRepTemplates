@@ -1,0 +1,11 @@
+# Automating your workflow {#automate}
+
+## Parameterization
+
+Using the `$` selector for setting parameters easily modified in 1 place (in YAML) at top of document rather than having to make numerous edits throughout a given document.
+
+Adding a `shiny` based selector tool to make it even easier
+
+## Batch processes
+
+Leveraging these `$` parameters, we can write a script that runs a batch process across a set of conditions (range of dates, locations, etc) to create multiple customized reports using only 1 core document.

@@ -6,7 +6,7 @@ This book details tools and skills to improve your analyses by linking data, cod
 
 Academic Level: Beginner to Intermediate
 
-Table of Contents
+Table of Contents - **WORK IN PROGRESS**
 
 1. What is reproducibility and why should I care?
     * a little history
@@ -75,10 +75,8 @@ The Course consists of 5 Modules:
 
 ===============
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "Get Started" at https://bookdown.org/ for how to compile this example.
+This book was written using the [R Markdown](https://rmarkdown.rstudio.com/) and [bookdown](https://github.com/rstudio/bookdown) packages. Please see "Get Started" at [https://bookdown.org/](https://bookdown.org/) for more information.
 
-Updated on 07/02/2020
-
-_development of book based on scripts and notes and other materials for reproducible templates course_
+Last Updated on 07/04/2020
 
 Link to book in docs [https://melindahiggins2000.github.io/BookRepTemplates/](https://melindahiggins2000.github.io/BookRepTemplates/)

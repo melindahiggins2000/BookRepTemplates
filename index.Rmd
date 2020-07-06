@@ -1,5 +1,5 @@
 --- 
-title: "Reproducible Templates _(Book in Development)_"
+title: "Reproducible Templates for Analysis and Dissemination"
 author: "Melinda K. Higgins"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -41,11 +41,24 @@ library(fivethirtyeight)
 
 \markboth{PREFACE}{PREFACE}
 
-This should be s short 2-3 paragraph summary of the book, what it is about and such.
+This book details tools and skills to improve your analyses by linking data, code and results dissemination (e.g., report, presentation, website, dashboard) into a seamless workflow. This book will help you create reusable workflow templates to improve your own efficiency. This information will also assist you with recreating a workflow that a previous coworker completed, revisiting a project you abandoned some time ago, or simply reproducing a document with a consistent format and process. Incomplete information about how the work was done, where the files are, and which is the most recent version can give rise to many complications. This book focuses on the proper end product creation process, allowing you and your colleagues to easily reproduce the components of your analyses. Throughout the exercises in this book, you will work with the R programming language, the RStudio IDE (interactive development interface) and the R Markdown package to help you build a portfolio of effective templates for reproducible analysis workflows.
 
 ## Why read this book {-}
 
-This should cover the purpose of the book and what the read will gain after reading the book. 
+While the reproducible research / reproducible analysis arena has been around for a decade or so, and is currently expanding to many industries and research areas, easy to read books with step-by-step instructions on setting up your own reproducible workflow are still hard to find. As described in the list of competitive books below, most of these current “R markdown”, “Reproducible Research”, and related books focus on the details associated with specific R package functions and options or do a fairly deep dive on the technical aspects of using and customizing R markdown. While some of them do provide example code for creating a “my first document”, none of them show how make use of a core set of data and analysis codes to produce multiple end products leveraging a consistent reproducible workflow infrastructure. In fact, I plan to use many of these books as references and recommended supplemental reading for readers who want to go more in-depth on any of the topics and related R packages. I plan to use the same dataset and R analysis codes in every chapter for consistency, so the reader can focus on the wide range of possibilities for formatting and disseminating their results to a multitude of audiences across different platforms (hardcopy, digital, and web-based).
+
+This book will achieve it’s goals by providing step-by-step instructions and accompanying code to walk the reader through creating different types of end products for disseminating and communicating their results to a wide-array of audiences. Separate chapters will focus on creating specific end products such as:
+
+* creating traditional report document formats (such as PDF, DOC, and OTF) and even HTML static webpage formats;
+* creating presentation slide formats (such as Beamer, ioslides, slidy, and PowerPoint);
+* presenting results online through websites and dashboards;
+* creating book type presentations in either hard copy formats (PDF) or electronic book formats
+
+By the end of each chapter, the reader will have created an end-to-end workflow template for that chapter’s format (e.g. document, slides, website, dashboard, book) that can be easily reused and customized for their specific data, analyses and formatting. For example, a single analysis could be disseminated simultaneously in multiple ways such through a quarterly report, blog post, dashboard and website with a project or company logo.
+
+This book will also include an accompanying Github repository with all of the data, code, templates and supporting files for all of the exercises in the book. This will include an R package that the reader can install for ready access to the datasets, code, and R markdown templates used in the book. These will enable the reader to be immediately productive using what they learned in the book.
+
+... other thoughts ...
 
 Include who this book is for - having some previous experience with R is helpful, but a raw beginner could read these book - but it is assumed that the reader knows how to install software on their computer, connect to the Internet, find, create, copy and move files and folders on their computer. some previous experience working with document and presentation software like Word, google docs, open office, powerpoint, others xxxxxx...
 
@@ -85,11 +98,15 @@ The Course consists of 5 Modules:
 
 ## Structure of the book {-}
 
-A verbal summary of what is in the book, each capte or section, organization and workflow - does it have to be sequential or can the reader jump around as needed - have to reads versus optional reads...
+A verbal summary of what is in the book, each chapter or section, organization and workflow - does it have to be sequential or can the reader jump around as needed - have to reads versus optional reads...
+
+... will be added once final structure of book is completed ...
 
 ## Software information and conventions {-}
 
 Software assumptions, workflow and style conventions used in book. Maybe include stuff here on hints, warnings, and such.
+
+This will include layout of consistency, standard structure and workflow practices used for each chapter.
 
 ## Acknowledgments {-}
 
@@ -100,6 +117,7 @@ People to thank:
 * chester ismay - fivethirtyeight package and feedback
 * yihui xie - online help and guidance with bookdown
 * developers of R, Rstudio, rmarkdown, bookdown, knitr, ...
+* other who may/will help in reading, feedback, revisions, etc...
 
 ## Prerequisites {-}
 
