@@ -1,5 +1,5 @@
 --- 
-title: "Reproducible Templates for Analysis and Dissemination"
+title: "Reproducible Templates for Analysis and Dissemination - a practical introduction - DRAFT"
 author: "Melinda K. Higgins"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
